@@ -24022,10 +24022,8 @@
 		<attribute key="weight" value="280"/>
 		<attribute key="description" value="The identity of some deepling is written there."/>
 	</item>
-	<item article="a" name="party lampions" id="14025">
-		<attribute key="weight" value="1000"/>
-	</item>
-	<item article="a" name="party lampions" id="14026">
+	<item id="14024" name="RESERVED SPRITE"/>
+	<item fromid="14025" toid="14026" article="a" name="party lampions">
 		<attribute key="weight" value="1000"/>
 	</item>
 	<item id="14027" article="a" name="party wall tinsel">
@@ -24040,12 +24038,12 @@
 	</item>
 	<item id="14030" article="a" name="flower pot">
 		<attribute key="weight" value="150"/>
-		<attribute key="decayto" value="15444"/>
+		<attribute key="decayto" value="14032"/>
 		<attribute key="duration" value="72000"/>
 	</item>
 	<item id="14031" article="a" name="flower pot">
 		<attribute key="weight" value="150"/>
-		<attribute key="decayto" value="15442"/>
+		<attribute key="decayto" value="14030"/>
 		<attribute key="duration" value="72000"/>
 	</item>
 	<item id="14032" article="a" name="withered plant">
@@ -24078,6 +24076,7 @@
 		<attribute key="description" value="There is a fully grown finger snapper plant in it. This plant can't wither anymore."/>
 		<attribute key="weight" value="150"/>
 	</item>
+	<item id="14039" name="RESERVED SPRITE"/>
 	<item id="14040" article="a" name="warrior's axe">
 		<attribute key="weight" value="8800"/>
 		<attribute key="attack" value="42"/>
@@ -24104,11 +24103,8 @@
 	<item id="14044" article="a" name="deepling claw">
 		<attribute key="weight" value="180"/>
 	</item>
-	<item article="an" name="insectoid queen" id="14045"/>
-	<item article="an" name="insectoid queen" id="14046"/>
-	<item article="an" name="insectoid queen" id="14047"/>
-	<item article="an" name="insectoid queen" id="14048"/>
-	<item article="an" name="insectoid queen" id="14049"/>
+	<item fromid="14045" toid="14049" article="an" name="insectoid queen"/>
+	<item id="14050" name="unknown item"/>
 	<item id="14051" name="gooey substance">
 		<attribute key="weight" value="120"/>
 		<attribute key="description" value="The substance will dissolve after a while."/>
@@ -24125,29 +24121,10 @@
 	<item id="14055" article="an" name="aggressive fluid">
 		<attribute key="weight" value="150"/>
 	</item>
+	<item fromid="14056" toid="14063" name="RESERVED SPRITE"/>
 	<item id="14064" name="hive pore"/>
 	<item id="14065" name="overgrown hive pore"/>
-	<item article="a" name="seashell bookcase" id="14066">
-		<attribute key="containersize" value="6"/>
-		<attribute key="description" value="A filigree case made of seashell. It seems there is a small lock on the side of the case."/>
-	</item>
-	<item article="a" name="seashell bookcase" id="14067">
-		<attribute key="containersize" value="6"/>
-		<attribute key="description" value="A filigree case made of seashell. It seems there is a small lock on the side of the case."/>
-	</item>
-	<item article="a" name="seashell bookcase" id="14068">
-		<attribute key="containersize" value="6"/>
-		<attribute key="description" value="A filigree case made of seashell. It seems there is a small lock on the side of the case."/>
-	</item>
-	<item article="a" name="seashell bookcase" id="14069">
-		<attribute key="containersize" value="6"/>
-		<attribute key="description" value="A filigree case made of seashell. It seems there is a small lock on the side of the case."/>
-	</item>
-	<item article="a" name="seashell bookcase" id="14070">
-		<attribute key="containersize" value="6"/>
-		<attribute key="description" value="A filigree case made of seashell. It seems there is a small lock on the side of the case."/>
-	</item>
-	<item article="a" name="seashell bookcase" id="14071">
+	<item fromid="14066" toid="14071" article="a" name="seashell bookcase">
 		<attribute key="containersize" value="6"/>
 		<attribute key="description" value="A filigree case made of seashell. It seems there is a small lock on the side of the case."/>
 	</item>
