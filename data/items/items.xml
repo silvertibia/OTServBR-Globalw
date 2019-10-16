@@ -23430,7 +23430,7 @@
 		<attribute key="duration" value="60"/>
 		<attribute key="corpsetype" value="blood"/>
 	</item>
-	<item fromid="13754" toid="13769" name="leaves" />
+	<item fromid="13754" toid="13769" name="leaves"/>
 	<item id="13771" article="a" name="dead deepling spellsinger">
 		<attribute key="containersize" value="48"/>
 		<attribute key="decayto" value="13772"/>
@@ -23529,8 +23529,8 @@
 		<attribute key="duration" value="60"/>
 		<attribute key="corpsetype" value="blood"/>
 	</item>
-	<item fromid="13805" toid="13810" name="brown sea floor" />
-	<item fromid="13823" toid="13840" article="an" name="enormous statue" />
+	<item fromid="13805" toid="13810" name="brown sea floor"/>
+	<item fromid="13823" toid="13840" article="an" name="enormous statue"/>
 	<item id="13844" name="ice flower seeds">
 		<attribute key="description" value="They seem to have strange effects on other plants and can also be grown into an own plant."/>
 		<attribute key="weight" value="50"/>
@@ -23713,9 +23713,9 @@
 		<attribute key="corpsetype" value="venom"/>
 		<attribute key="fluidsource" value="slime"/>
 	</item>
-	<item fromid="13874" toid="13894" article="a" name="table" />
-	<item fromid="13895" toid="13896" name="unknown item" />
-	<item fromid="13897" toid="13900" name="lampions" />
+	<item fromid="13874" toid="13894" article="a" name="table"/>
+	<item fromid="13895" toid="13896" name="unknown item"/>
+	<item fromid="13897" toid="13900" name="lampions"/>
 	<item id="13901" name="flitter"/>
 	<item id="13902" article="a" name="party snake"/>
 	<item id="13903" name="royal emblems"/>
@@ -23723,8 +23723,8 @@
 	<item id="13905" article="a" name="party snake"/>
 	<item id="13906" name="royal emblems"/>
 	<item id="13907" name="lampions"/>
-	<item fromid="13908" toid="13909" name="drinks" />
-	<item fromid="13910" toid="13912" name="lampions" />
+	<item fromid="13908" toid="13909" name="drinks"/>
+	<item fromid="13910" toid="13912" name="lampions"/>
 	<item id="13913" name="flitter"/>
 	<item id="13914" article="a" name="party snake"/>
 	<item id="13915" name="emblems"/>
@@ -23733,9 +23733,9 @@
 	<item id="13918" article="a" name="party snake"/>
 	<item id="13919" name="emblems"/>
 	<item id="13920" article="an" name="emblem"/>
-	<item fromid="13921" toid="13924" article="an" name="archway" />
-	<item fromid="13925" toid="13933" name="RESERVED SPRITE" />
-	<item fromid="13934" toid="13935" article="an" name="archway" />
+	<item fromid="13921" toid="13924" article="an" name="archway"/>
+	<item fromid="13925" toid="13933" name="RESERVED SPRITE"/>
+	<item fromid="13934" toid="13935" article="an" name="archway"/>
 	<item id="13936" name="unknown item"/>
 	<item id="13937" article="a" name="dead kollos">
 		<attribute key="containersize" value="36"/>
@@ -23760,8 +23760,8 @@
 		<attribute key="duration" value="60"/>
 		<attribute key="corpsetype" value="venom"/>
 	</item>
-	<item fromid="13941" toid="13942" article="a" name="golden anchor" />
-	<item fromid="13943" toid="13967" article="a" name="hivecomb floor" />
+	<item fromid="13941" toid="13942" article="a" name="golden anchor"/>
+	<item fromid="13943" toid="13967" article="a" name="hivecomb floor"/>
 	<item id="13968" name="RESERVED SPRITE"/>
 	<item id="13969" article="an" name="insectoid cocoon">
 		<attribute key="weight" value="500"/>
@@ -23852,7 +23852,7 @@
 		<attribute key="weapontype" value="club"/>
 		<attribute key="slottype" value="two-handed"/>
 	</item>
-	<item fromid="13988" toid="13989" name="shallow water" />
+	<item fromid="13988" toid="13989" name="shallow water"/>
 	<item id="13990" article="a" name="necklace of the deep">
 		<attribute key="weight" value="500"/>
 		<attribute key="charges" value="50"/>
@@ -24128,6 +24128,8 @@
 		<attribute key="containersize" value="6"/>
 		<attribute key="description" value="A filigree case made of seashell. It seems there is a small lock on the side of the case."/>
 	</item>
+	<item fromid="14072" toid="14073" name="unknown item"/>
+	<item fromid="14074" toid="14075" name="insectoid monolith"/>
 	<item id="14076" article="a" name="swarmer antenna" plural="swarmer antennas">
 		<attribute key="weight" value="100"/>
 	</item>
@@ -24186,63 +24188,68 @@
 		<attribute key="weapontype" value="axe"/>
 		<attribute key="imbuingslots" value="2"/>
 	</item>
+	<item id="14090" article="a" name="dead poodle">
+		<attribute key="containersize" value="20"/>
+		<attribute key="decayto" value="14091"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="corpsetype" value="blood"/>
+		<attribute key="fluidsource" value="blood"/>
+	</item>
+	<item id="14091" article="a" name="dead poodle">
+		<attribute key="containersize" value="10"/>
+		<attribute key="decayto" value="14092"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="corpsetype" value="blood"/>
+	</item>
+	<item id="14092" article="a" name="dead poodle">
+		<attribute key="decayto" value="0"/>
+		<attribute key="duration" value="300"/>
+		<attribute key="corpsetype" value="blood"/>
+	</item>
+	<item id="14093" article="a" name="dead poodle">
+		<attribute key="containersize" value="20"/>
+		<attribute key="decayto" value="14090"/>
+		<attribute key="duration" value="10"/>
+		<attribute key="corpsetype" value="blood"/>
+	</item>
 	<item id="14094" article="a" name="dead deepling worker">
 		<attribute key="containersize" value="36"/>
-		<attribute key="decayto" value="15498"/>
+		<attribute key="decayto" value="14095"/>
 		<attribute key="duration" value="300"/>
 		<attribute key="corpsetype" value="blood"/>
 		<attribute key="fluidsource" value="blood"/>
 	</item>
 	<item id="14095" article="a" name="dead deepling worker">
 		<attribute key="containersize" value="36"/>
-		<attribute key="decayto" value="15499"/>
+		<attribute key="decayto" value="14096"/>
 		<attribute key="duration" value="300"/>
 		<attribute key="corpsetype" value="blood"/>
 	</item>
 	<item id="14096" article="a" name="dead deepling worker">
 		<attribute key="decayto" value="0"/>
-		<attribute key="duration" value="300"/>
+		<attribute key="duration" value="60"/>
 		<attribute key="corpsetype" value="blood"/>
 	</item>
 	<item id="14097" article="a" name="dead deepling worker">
 		<attribute key="containersize" value="36"/>
-		<attribute key="decayto" value="15497"/>
+		<attribute key="decayto" value="14094"/>
 		<attribute key="duration" value="10"/>
 		<attribute key="corpsetype" value="blood"/>
 	</item>
 	<item id="14098" article="a" name="dragon's nest"/>
+	<item id="14099" article="a" name="dragon's nest">
+		<attribute key="description" value="The young dragons have just hatched."/>
+	</item>
+	<item fromid="14100" toid="14111" article="a" name="lava"/> <!-- unconfirmed name -->
 	<item id="14112" article="a" name="bar of gold">
 		<attribute key="weight" value="2100"/>
 	</item>
-	<item article="a" name="lava stream" id="14113"/>
-	<item article="a" name="lava stream" id="14114"/>
-	<item article="a" name="lava stream" id="14115"/>
-	<item article="a" name="lava stream" id="14116"/>
-	<item article="a" name="lava stream" id="14117"/>
-	<item article="a" name="lava stream" id="14118"/>
-	<item article="a" name="lava stream" id="14119"/>
-	<item article="a" name="lava stream" id="14120"/>
-	<item article="a" name="lava stream" id="14121"/>
-	<item article="a" name="lava stream" id="14122"/>
-	<item article="a" name="lava stream" id="14123"/>
-	<item article="a" name="lava stream" id="14124"/>
-	<item article="a" name="lava stream" id="14125"/>
-	<item article="a" name="lava stream" id="14126"/>
-	<item article="a" name="lava stream" id="14127"/>
-	<item article="a" name="lava stream" id="14128"/>
-	<item article="a" name="lava stream" id="14129"/>
-	<item article="a" name="lava stream" id="14130"/>
-	<item article="a" name="lava stream" id="14131"/>
-	<item article="a" name="lava stream" id="14132"/>
-	<item id="14133" name="stairs">
+	<item fromid="14113" toid="14132" article="a" name="lava stream"/>
+	<item fromid="14133" toid="14135" name="stairs">
 		<attribute key="floorchange" value="down"/>
 	</item>
-	<item id="14134" name="stairs">
-		<attribute key="floorchange" value="down"/>
-	</item>
-	<item id="14135" name="stairs">
-		<attribute key="floorchange" value="down"/>
-	</item>
+	<item fromid="14136" toid="14140" name="unknown item"/>
+	<item id="14141" name="lava"/>
 	<item id="14142" article="a" name="foxtail">
 		<attribute key="weight" value="200"/>
 		<attribute key="description" value="A hermit near Carlin might be able to tell you more about it."/>
@@ -24251,14 +24258,7 @@
 		<attribute key="weight" value="200"/>
 		<attribute key="description" value="A hermit near Carlin might be able to tell you more about it."/>
 	</item>
-	<item article="a" name="lava stream" id="14144"/>
-	<item article="a" name="lava stream" id="14145"/>
-	<item article="a" name="lava stream" id="14146"/>
-	<item article="a" name="lava stream" id="14147"/>
-	<item article="a" name="lava stream" id="14148"/>
-	<item article="a" name="lava stream" id="14149"/>
-	<item article="a" name="lava stream" id="14150"/>
-	<item article="a" name="lava stream" id="14151"/>
+	<item fromid="14144" toid="14151" article="a" name="lava stream"/>
 	<item article="a" name="basket" id="14152">
 		<attribute key="weight" value="5000"/>
 		<attribute key="description" value="There are little puppies inside."/>
@@ -24267,8 +24267,7 @@
 		<attribute key="weight" value="5000"/>
 		<attribute key="description" value="There are little puppies inside."/>
 	</item>
-	<item article="a" name="wanted note" id="14154"/>
-	<item article="a" name="wanted note" id="14155"/>
+	<item fromid="14154" toid="14155" article="a" name="wanted note"/>
 	<item id="14156" article="a" name="dog collar">
 		<attribute key="weight" value="110"/>
 		<attribute key="description" value="It belongs to Noodles, the King's dog."/>
@@ -24276,10 +24275,7 @@
 	<item id="14157" article="a" name="strong water vortex">
 		<attribute key="description" value="This continuous stream of water seems strong enough to cut even the hardest of materials."/>
 	</item>
-	<item article="a" name="crystal wall" id="14158"/>
-	<item article="a" name="crystal wall" id="14159"/>
-	<item article="a" name="crystal wall" id="14160"/>
-	<item article="a" name="crystal wall" id="14161"/>
+	<item fromid="14158" toid="14161" article="a" name="crystal wall"/>
 	<item id="14162" article="a" name="rough red gem">
 		<attribute key="description" value="This blood red gem is still rough."/>
 	</item>
@@ -24294,6 +24290,7 @@
 		<attribute key="description" value="This crate is full of fossilised coral. It needs to be obstructed in time or it will corrode."/>
 	</item>
 	<item id="14167" name="deepling spawn"/>
+	<item fromid="14168" toid="14170" name="RESERVED SPRITE"/>
 	<item id="14171" name="hive pore"/>
 	<item id="14172" article="a" name="gooey mass" plural="gooey masses">
 		<attribute key="weight" value="5500"/>
@@ -24315,6 +24312,18 @@
 		<attribute key="weight" value="200"/>
 		<attribute key="description" value="These scribblings are almost unreadable."/>
 	</item>
+	<item fromid="14177" toid="14180" name="unknown item"/>
+	<item fromid="14181" toid="14182" name="unknown item"/>
+	<item fromid="14183" toid="14184" name="unknown item"/>
+	<item fromid="14185" toid="14190" name="unknown item"/>
+	<item fromid="14191" toid="14194" name="unknown item"/>
+	<item fromid="14195" toid="14200" name="unknown item"/>
+	<item fromid="14201" toid="14202" name="unknown item"/>
+	<item fromid="14203" toid="14204" name="unknown item"/>
+	<item fromid="14205" toid="14206" name="unknown item"/>
+	<item fromid="14207" toid="14210" name="unknown item"/>
+	<item fromid="14211" toid="14218" name="unknown item"/>
+	<item fromid="14219" toid="14221" name="RESERVED SPRITE"/>
 	<item id="14222" article="a" name="trophy of Obujos">
 		<attribute key="weight" value="500"/>
 	</item>
