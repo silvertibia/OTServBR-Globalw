@@ -19259,7 +19259,6 @@
 	<item id="9816" article="a" name="jade plant"/>
 	<item id="9817" article="a" name="thornpeak grass"/>
 	<item fromid="9818" toid="9819" name="pepper root grass"/>
-	<item name="pepper root grass" id="9819"/>
 	<item fromid="9820" toid="9823" name="dry grass"/>
 	<item fromid="9824" toid="9826" name="trollhair plants"/>
 	<item fromid="9827" toid="9834" article="a" name="plant's hedge"/>
@@ -20606,8 +20605,7 @@
 	<item id="11234" article="an" name="open door">
 		<attribute key="type" value="door"/>
 	</item>
-	<item name="wall torch" id="11235"/>
-	<item name="wall torch" id="11236"/>
+	<item fromid="11235" toid="11236" name="wall torch"/>
 	<item id="11237" article="a" name="gate of expertise">
 		<attribute key="leveldoor" value="1000"/>
 		<attribute key="type" value="door"/>
@@ -21728,7 +21726,7 @@
 	<item fromid="12059" toid="12063" article="a" name="slime fungus"/>
 	<item id="12064" article="a" name="RESERVED SPRITE"/>
 	<item fromid="12065" toid="12066" name="stone floor"/>
-	<item name="stone floor" id="12066"/>
+	<item id="12066" name="stone floor"/>
 	<item fromid="12067" toid="12068" article="a" name="slime fungus"/>
 	<item id="12069" article="a" name="dead crystal wolf">
 		<attribute key="containersize" value="10"/>
@@ -21970,11 +21968,7 @@
 		<attribute key="weight" value="500"/>
 	</item>
 	<item id="12276" article="a" name="book"/>
-	<item name="pressed winterberries" id="12277"/>
-	<item name="pressed winterberries" id="12278"/>
-	<item name="pressed winterberries" id="12279"/>
-	<item name="pressed winterberries" id="12280"/>
-	<item name="pressed winterberries" id="12281"/>
+	<item fromid="12277" toid="12281" name="pressed winterberries"/>
 	<item id="12285" article="a" name="magic tile">
 		<attribute key="decayto" value="12286"/>
 		<attribute key="duration" value="1"/>
@@ -24236,10 +24230,7 @@
 		<attribute key="duration" value="10"/>
 		<attribute key="corpsetype" value="blood"/>
 	</item>
-	<item id="14098" article="a" name="dragon's nest"/>
-	<item id="14099" article="a" name="dragon's nest">
-		<attribute key="description" value="The young dragons have just hatched."/>
-	</item>
+	<item fromid="14098" toid="14099" article="a" name="dragon's nest"/>
 	<item fromid="14100" toid="14111" article="a" name="lava"/> <!-- unconfirmed name -->
 	<item id="14112" article="a" name="bar of gold">
 		<attribute key="weight" value="2100"/>
@@ -24259,11 +24250,7 @@
 		<attribute key="description" value="A hermit near Carlin might be able to tell you more about it."/>
 	</item>
 	<item fromid="14144" toid="14151" article="a" name="lava stream"/>
-	<item article="a" name="basket" id="14152">
-		<attribute key="weight" value="5000"/>
-		<attribute key="description" value="There are little puppies inside."/>
-	</item>
-	<item article="a" name="basket" id="14153">
+	<item fromid="14152" toid="14153" article="a" name="basket">
 		<attribute key="weight" value="5000"/>
 		<attribute key="description" value="There are little puppies inside."/>
 	</item>
@@ -24336,21 +24323,26 @@
 	<item id="14225" article="a" name="dung ball">
 		<attribute key="weight" value="190"/>
 	</item>
+	<item id="14226" article="a" name="deep black gap"/>
+	<item fromid="14227" toid="14230" article="a" name="strange funnel"/> <!-- unconfirmed name -->
+	<item fromid="14231" toid="14232" article="a" name="strange funnels"/>
+	<item fromid="14233" toid="14236" article="a" name="strange funnel"/> <!-- unconfirmed name -->
 	<item id="14237" article="a" name="soft green chair">
 		<attribute key="description" value="The chair is tied to this strange machine. You could use this if you had appropriate instructions."/>
 	</item>
 	<item id="14238" name="mud">
 		<attribute key="description" value="There is a hole in the ceiling."/>
 	</item>
+	<item id="14239" article="a" name="unknown item"/>
 	<item id="14240" article="a" name="fish swarm"/>
-	<item article="a" name="true heart of the sea" id="14241">
+	<item fromid="14241" toid="14242" article="a" name="true heart of the sea">
 		<attribute key="weight" value="970"/>
 		<attribute key="description" value="A true Hearth of the Sea, cut by Deeplings in depths of deepest black. It feels cold and lifeless."/>
 	</item>
-	<item article="a" name="true heart of the sea" id="14242">
-		<attribute key="weight" value="970"/>
-		<attribute key="description" value="A true Hearth of the Sea, cut by Deeplings in depths of deepest black. It feels cold and lifeless."/>
-	</item>
+	<item fromid="14243" toid="14245" article="a" name="treasure chest">
+		<attribute key="weight" value="9500"/>
+		<attribute key="containersize" value="10"/>
+	</item> <!-- unconfirmed attributes -->
 	<item id="14246" article="a" name="hive bow">
 		<attribute key="weight" value="4600"/>
 		<attribute key="slottype" value="two-handed"/>
@@ -24410,18 +24402,12 @@
 	<item id="14253" article="a" name="drum">
 		<attribute key="weight" value="3200"/>
 	</item>
+	<item id="14254" name="RESERVED SPRITE">
 	<item id="14255" article="a" name="swarmer drum">
 		<attribute key="description" value="The drum is still vibrating and not ready for use."/>
 		<attribute key="weight" value="3200"/>
 	</item>
-	<item id="14256" article="a" name="carnivorous plant">
-		<attribute key="rotateto" value="32273"/>
-		<attribute key="wrapableTo" value="23398"/>
-	</item>
-	<item id="14257" article="a" name="carnivorous plant">
-		<attribute key="rotateto" value="32272"/>
-		<attribute key="wrapableTo" value="23398"/>
-	</item>
+	<item fromid="14256" toid="14257" name="RESERVED SPRITE">
 	<item id="14258" article="a" name="depth galea">
 		<attribute key="description" value="Enables underwater exploration."/>
 		<attribute key="absorbpercentdrown" value="100"/>
@@ -24429,18 +24415,8 @@
 		<attribute key="armor" value="8"/>
 		<attribute key="slottype" value="head"/>
 	</item>
-	<item name="sem sprite" id="14263">
-		<attribute key="decayto" value="0"/>
-		<attribute key="duration" value="100"/>
-	</item>
-	<item name="sem sprite" id="14264">
-		<attribute key="decayto" value="0"/>
-		<attribute key="duration" value="100"/>
-	</item>
-	<item name="sem sprite" id="14265">
-		<attribute key="decayto" value="0"/>
-		<attribute key="duration" value="100"/>
-	</item>
+	<item id="14259" name="Eighty outfit"/>
+	<item fromid="14260" toid="14669" name="RESERVED SPRITE">
 	<item id="14670" article="a" name="CM token">
 		<attribute key="description" value="It was awarded during the festivities of Tibia's 15th anniversary."/>
 		<attribute key="weight" value="1250"/>
@@ -24464,27 +24440,7 @@
 		<attribute key="slottype" value="backpack"/>
 		<attribute key="imbuingslots" value="1"/>
 	</item>
-	<item article="a" name="tapestry of honour" id="14675">
-		<attribute key="description" value="This tapestry has been awarded to the &lt;guild&gt; for being more than &lt;age&gt; years old on January 7th 2012 at Tibia's 15th birthday."/>
-		<attribute key="weight" value="800"/>
-	</item>
-	<item article="a" name="tapestry of honour" id="14676">
-		<attribute key="description" value="This tapestry has been awarded to the &lt;guild&gt; for being more than &lt;age&gt; years old on January 7th 2012 at Tibia's 15th birthday."/>
-		<attribute key="weight" value="800"/>
-	</item>
-	<item article="a" name="tapestry of honour" id="14677">
-		<attribute key="description" value="This tapestry has been awarded to the &lt;guild&gt; for being more than &lt;age&gt; years old on January 7th 2012 at Tibia's 15th birthday."/>
-		<attribute key="weight" value="800"/>
-	</item>
-	<item article="a" name="tapestry of honour" id="14678">
-		<attribute key="description" value="This tapestry has been awarded to the &lt;guild&gt; for being more than &lt;age&gt; years old on January 7th 2012 at Tibia's 15th birthday."/>
-		<attribute key="weight" value="800"/>
-	</item>
-	<item article="a" name="tapestry of honour" id="14679">
-		<attribute key="description" value="This tapestry has been awarded to the &lt;guild&gt; for being more than &lt;age&gt; years old on January 7th 2012 at Tibia's 15th birthday."/>
-		<attribute key="weight" value="800"/>
-	</item>
-	<item article="a" name="tapestry of honour" id="14680">
+	<item fromid="14675" toid="14680" article="a" name="tapestry of honour">
 		<attribute key="description" value="This tapestry has been awarded to the &lt;guild&gt; for being more than &lt;age&gt; years old on January 7th 2012 at Tibia's 15th birthday."/>
 		<attribute key="weight" value="800"/>
 	</item>
@@ -24509,78 +24465,57 @@
 		<attribute key="weight" value="100"/>
 		<attribute key="description" value="Paint is dripping from its tip."/>
 	</item>
-	<item article="an" name="artist's easel" id="14687">
+	<item fromid="14687" toid="14690" article="an" name="artist's easel">
 		<attribute key="weight" value="1600"/>
 	</item>
-	<item article="an" name="artist's easel" id="14688">
-		<attribute key="weight" value="1600"/>
-	</item>
-	<item article="an" name="artist's easel" id="14689">
-		<attribute key="weight" value="1600"/>
-		<attribute key="description" value="An empty canvas has been placed on it."/>
-	</item>
-	<item article="an" name="artist's easel" id="14690">
-		<attribute key="weight" value="1600"/>
-		<attribute key="description" value="An empty canvas has been placed on it."/>
-	</item>
-	<item article="a" name="masterpiece of a muse" id="14691">
+	<item fromid="14691" toid="14692" article="a" name="masterpiece of a muse">
 		<attribute key="weight" value="1600"/>
 		<attribute key="description" value="It was painted in the style of Penciljack."/>
 	</item>
-	<item article="a" name="masterpiece of a muse" id="14692">
-		<attribute key="weight" value="1600"/>
-		<attribute key="description" value="It was painted in the style of Penciljack."/>
-	</item>
-	<item article="a" name="painting of a muse" id="14693">
+	<item fromid="14693" toid="14694" article="a" name="painting of a muse">
 		<attribute key="weight" value="1600"/>
 		<attribute key="description" value="It was painted in the style of Penciljack. Unfortunately, there are some blue pixels in this piece."/>
 	</item>
-	<item article="a" name="painting of a muse" id="14694">
-		<attribute key="weight" value="1600"/>
-		<attribute key="description" value="It was painted in the style of Penciljack. Unfortunately, there are some blue pixels in this piece."/>
-	</item>
-	<item article="a" name="masterpiece of a gozzler" id="14695">
+	<item fromid="14695" toid="14696" article="a" name="masterpiece of a gozzler">
 		<attribute key="weight" value="1600"/>
 		<attribute key="description" value="It was painted in the style of Lyxoph."/>
 	</item>
-	<item article="a" name="masterpiece of a gozzler" id="14696">
-		<attribute key="weight" value="1600"/>
-		<attribute key="description" value="It was painted in the style of Lyxoph."/>
-	</item>
-	<item article="a" name="painting of a gozzler" id="14697">
+	<item fromid="14697" toid="14698" article="a" name="painting of a gozzler">
 		<attribute key="weight" value="1600"/>
 		<attribute key="description" value="It was painted in the style of Lyxoph. Unfortunately, there are some blue pixels in this piece."/>
 	</item>
-	<item article="a" name="painting of a gozzler" id="14698">
-		<attribute key="weight" value="1600"/>
-		<attribute key="description" value="It was painted in the style of Lyxoph. Unfortunately, there are some blue pixels in this piece."/>
-	</item>
+	<item fromid="14699" toid="14740" name="RESERVED SPRITE"/>
 	<item id="14741" article="an" name="easel kit">
 		<attribute key="description" value="Use it in your house to construct an easel."/>
 		<attribute key="weight" value="7500"/>
 	</item>
+	<item fromid="14742" toid="14749" name="RESERVED SPRITE"/>
 	<item id="14750" article="a" name="surprise nest">
 		<attribute key="description" value="Use it to get a little surprise."/>
 	</item>
 	<item id="14751" article="a" name="pirates surprise">
 		<attribute key="weight" value="1200"/>
 	</item>
+	<item id="14752" name="RESERVED SPRITE"/>
 	<item id="14753" article="a" name="dung ball">
 		<attribute key="weight" value="190"/>
 	</item>
 	<item id="14754" article="a" name="cake cabinet">
 		<attribute key="containersize" value="10"/>
-		<attribute key="rotateto" value="16098"/>
-		<attribute key="wrapableto" value="16099"/>
+		<attribute key="rotateto" value="14755"/>
+		<attribute key="wrapableto" value="14756"/>
 	</item>
 	<item id="14755" article="a" name="cake cabinet">
 		<attribute key="containersize" value="10"/>
-		<attribute key="wrapableto" value="16099"/>
-		<attribute key="rotateto" value="16097"/>
+		<attribute key="rotateto" value="14754"/>
+		<attribute key="wrapableto" value="14756"/>
 	</item>
 	<item id="14756" article="a" name="cake cabinet kit">
 		<attribute key="description" value="Use it in your house to construct a cake cabinet."/>
 		<attribute key="weight" value="7500"/>
+	</item>
+	<item id="14757" article="a" name="dragon's nest">
+		<attribute key="description" value="Young dragons will hatch soon."/>
 	</item>
 	<item id="14758" article="a" name="premium scroll">
 		<attribute key="description" value="Using this scroll will add 30 days of premium time to your account once."/>
@@ -24590,35 +24525,20 @@
 		<attribute key="description" value="Use it to get a little surprise."/>
 		<attribute key="weight" value="2000"/>
 	</item>
-	<item article="a" name="mathmaster shield" id="14760">
+	<item fromid="14760" toid="14761" article="a" name="mathmaster shield">
 		<attribute key="description" value="It's an Emblem of Wisdom. Awarded by TibiaStat.com."/>
+		<attribute key="defense" value="0"/>
 		<attribute key="weight" value="314"/>
 	</item>
-	<item article="a" name="mathmaster shield" id="14761">
-		<attribute key="description" value="It's an Emblem of Wisdom. Awarded by TibiaStat.com."/>
-		<attribute key="weight" value="314"/>
-	</item>
-	<item article="a" name="medusa skull" id="14762">
+	<item fromid="14762" toid="14763" article="a" name="medusa skull">
 		<attribute key="description" value="You see a medusa skull. Her hair's snakes are still alive. Awarded only on TibiaPic.com."/>
 		<attribute key="weight" value="1000"/>
 	</item>
-	<item article="a" name="medusa skull" id="14763">
-		<attribute key="description" value="You see a medusa skull. Her hair's snakes are still alive. Awarded only on TibiaPic.com."/>
-		<attribute key="weight" value="1000"/>
-	</item>
-	<item article="a" name="doll of Durin The Almighty" id="14764">
+	<item fromid="14764" toid="14765" article="a" name="doll of Durin The Almighty">
 		<attribute key="description" value="The mightiest. The only. God of all dwarfs. Awarded by Tibia Bariloche."/>
 		<attribute key="weight" value="4000"/>
 	</item>
-	<item article="a" name="doll of Durin The Almighty" id="14765">
-		<attribute key="description" value="The mightiest. The only. God of all dwarfs. Awarded by Tibia Bariloche."/>
-		<attribute key="weight" value="4000"/>
-	</item>
-	<item article="a" name="majestic shield" id="14766">
-		<attribute key="description" value="This wonderful shield is designed for GuildStats.eu, to honour all guilds in Tibia."/>
-		<attribute key="weight" value="15000"/>
-	</item>
-	<item article="a" name="majestic shield" id="14767">
+	<item fromid="14766" toid="14767" article="a" name="majestic shield">
 		<attribute key="description" value="This wonderful shield is designed for GuildStats.eu, to honour all guilds in Tibia."/>
 		<attribute key="weight" value="15000"/>
 	</item>
@@ -24641,98 +24561,34 @@
 		<attribute key="magiclevelpoints" value="4"/>
 		<attribute key="showattributes" value="1"/>
 	</item>
-	<item name="crystal floor" id="14770"/>
-	<item name="crystal floor" id="14771"/>
-	<item name="crystal floor" id="14772"/>
-	<item name="crystal floor" id="14773"/>
-	<item name="crystal floor" id="14774"/>
-	<item name="crystal floor" id="14775"/>
-	<item name="crystal floor" id="14776"/>
-	<item name="crystal floor" id="14777"/>
-	<item name="crystal floor" id="14778"/>
-	<item name="crystal floor" id="14779"/>
-	<item name="crystal floor" id="14780"/>
-	<item name="crystal floor" id="14781"/>
-	<item name="crystal floor" id="14782"/>
-	<item name="crystal floor" id="14783"/>
-	<item name="crystal floor" id="14784"/>
-	<item name="crystal floor" id="14785"/>
-	<item name="crystal floor" id="14786"/>
-	<item name="crystal floor" id="14787"/>
-	<item name="crystal floor" id="14788"/>
-	<item name="crystal floor" id="14789"/>
-	<item name="crystal floor" id="14790"/>
-	<item name="crystal floor" id="14791"/>
-	<item name="crystal floor" id="14792"/>
-	<item name="crystal floor" id="14793"/>
-	<item name="crystal floor" id="14794"/>
-	<item name="crystal floor" id="14795"/>
-	<item name="crystal floor" id="14796"/>
-	<item name="crystal floor" id="14797"/>
-	<item name="crystal floor" id="14798"/>
-	<item name="crystal floor" id="14799"/>
-	<item name="crystal floor" id="14800"/>
-	<item name="crystal floor" id="14801"/>
+	<item fromid="14770" toid="14801" name="crystal floor"/>
+	<item fromid="14802" toid="14841" name="RESERVED SPRITE"/>
 	<item id="14842" article="a" name="basalt wall with crystals"/>
-	<item article="a" name="basalt wall" id="14843"/>
-	<item article="a" name="basalt wall" id="14844"/>
+	<item fromid="14843" toid="14844" article="a" name="basalt wall"/>
+	<item fromid="14845" toid="14846" article="a" name="basalt wall"/> <!-- unconfirmed name -->
 	<item id="14847" name="fossilised bones"/>
-	<item article="a" name="basalt wall" id="14848"/>
-	<item article="a" name="basalt wall" id="14849"/>
-	<item article="a" name="basalt wall" id="14850"/>
-	<item article="a" name="basalt wall with crystals" id="14851"/>
-	<item article="a" name="basalt wall with crystals" id="14852"/>
+	<item fromid="14848" toid="14850" article="a" name="basalt wall"/>
+	<item fromid="14851" toid="14852" article="a" name="basalt wall with crystals"/>
+	<item fromid="14853" toid="14854" article="a" name="basalt wall"/> <!-- unconfirmed name -->
 	<item id="14855" name="fossilised bones"/>
-	<item article="a" name="basalt wall" id="14856"/>
-	<item article="a" name="basalt wall" id="14857"/>
-	<item article="a" name="basalt wall" id="14858"/>
-	<item article="a" name="basalt wall" id="14859"/>
-	<item article="a" name="basalt wall" id="14860"/>
-	<item article="a" name="basalt wall" id="14861"/>
-	<item article="a" name="basalt wall" id="14862"/>
-	<item name="crystals" id="14863"/>
-	<item name="crystals" id="14864"/>
-	<item name="crystals" id="14865"/>
-	<item name="crystals" id="14866"/>
-	<item article="a" name="small basalt wall" id="14867"/>
-	<item article="a" name="small basalt wall" id="14868"/>
-	<item article="a" name="small basalt wall" id="14869"/>
-	<item name="crystals" id="14870"/>
-	<item name="crystals" id="14871"/>
-	<item name="crystals" id="14872"/>
-	<item article="a" name="basalt wall with crystals" id="14873"/>
-	<item article="a" name="basalt wall with crystals" id="14874"/>
-	<item article="a" name="basalt wall with crystals" id="14875"/>
-	<item article="a" name="basalt wall with crystals" id="14876"/>
-	<item article="a" name="basalt wall with crystals" id="14877"/>
+	<item fromid="14856" toid="14862" article="a" name="basalt wall"/>
+	<item fromid="14863" toid="14866" name="crystals"/>
+	<item fromid="14867" toid="14869" article="a" name="small basalt wall"/>
+	<item fromid="14870" toid="14872" name="crystals"/>
+	<item fromid="14873" toid="14877" article="a" name="basalt wall with crystals"/>
 	<item id="14878" name="crystals"/>
 	<item id="14879" article="a" name="basalt wall"/>
 	<item id="14880" article="a" name="basalt wall"/>
 	<item id="14881" article="a" name="basalt wall with crystals"/>
 	<item id="14882" article="a" name="basalt wall"/>
 	<item id="14883" article="a" name="basalt wall"/>
+	<item fromid="14884" toid="14885" article="a" name="basalt wall"/>
 	<item id="14886" name="nestled crystals"/>
 	<item id="14887" article="a" name="fossilised bones"/>
 	<item id="14888" article="a" name="basalt wall with crystals"/>
 	<item id="14889" article="a" name="basalt wall with crystals"/>
-	<item article="a" name="basalt wall" id="14893"/>
-	<item article="a" name="basalt wall" id="14894"/>
-	<item article="a" name="basalt wall" id="14895"/>
-	<item article="a" name="basalt wall" id="14896"/>
-	<item article="a" name="basalt wall" id="14897"/>
-	<item article="a" name="basalt wall" id="14898"/>
-	<item article="a" name="small stream" id="14913"/>
-	<item article="a" name="small stream" id="14914"/>
-	<item article="a" name="small stream" id="14915"/>
-	<item article="a" name="small stream" id="14916"/>
-	<item article="a" name="small stream" id="14917"/>
-	<item article="a" name="small stream" id="14918"/>
-	<item article="a" name="small stream" id="14919"/>
-	<item article="a" name="small stream" id="14920"/>
-	<item article="a" name="small stream" id="14921"/>
-	<item article="a" name="small stream" id="14922"/>
-	<item article="a" name="small stream" id="14923"/>
-	<item article="a" name="small stream" id="14924"/>
+	<item fromid="14893" toid="14898" article="a" name="basalt wall"/>
+	<item fromid="14913" toid="14931" article="a" name="small stream"/>
 	<item id="14932" article="a" name="ramp">
 		<attribute key="floorchange" value="east"/>
 	</item>
@@ -24749,160 +24605,43 @@
 		<attribute key="floorchange" value="north"/>
 	</item>
 	<item id="14939" article="a" name="ramp"/>
-	<item article="a" name="green crystal stalagmite" id="14940"/>
-	<item article="a" name="green crystal stalagmite" id="14941"/>
+	<item fromid="14940" toid="14941" article="a" name="green crystal stalagmite"/>
 	<item id="14942" article="a" name="green crystal stalagmite"/>
-	<item article="a" name="large fallen crystal" id="14943"/>
-	<item article="a" name="large fallen crystal" id="14944"/>
-	<item article="a" name="large fallen crystal" id="14945"/>
-	<item article="a" name="large fallen crystal" id="14946"/>
-	<item article="a" name="large fallen crystal" id="14947"/>
-	<item article="a" name="large fallen crystal" id="14948"/>
+	<item fromid="14943" toid="14948" article="a" name="large fallen crystal"/>
 	<item id="14949" name="cluster of green crystals"/>
 	<item id="14950" name="green crystal rods"/>
 	<item id="14951" name="green crystals"/>
 	<item id="14952" name="small green crystals"/>
-	<item name="green crystals" id="14953"/>
-	<item name="green crystals" id="14954"/>
+	<item fromid="14953" toid="14954" name="green crystals"/>
 	<item id="14955" name="cluster of blue crystals"/>
 	<item id="14956" name="blue crystal rods"/>
 	<item id="14957" name="blue crystals"/>
 	<item id="14958" name="small blue crystals"/>
-	<item name="blue crystals" id="14959"/>
-	<item name="blue crystals" id="14960"/>
+	<item fromid="14959" toid="14960" name="blue crystals"/>
 	<item id="14961" name="cluster of red crystals"/>
 	<item id="14962" name="red crystal rods"/>
 	<item id="14963" name="red crystals"/>
 	<item id="14964" name="small red crystals"/>
-	<item name="red crystals" id="14965"/>
-	<item name="red crystals" id="14966"/>
-	<item article="a" name="crystal geode" id="14967"/>
-	<item article="a" name="crystal geode" id="14968"/>
-	<item article="a" name="crystal geode" id="14969"/>
-	<item article="a" name="crystal geode" id="14970"/>
-	<item article="a" name="crystal geode" id="14971"/>
-	<item article="a" name="large blue crystal" id="14972"/>
-	<item article="a" name="large blue crystal" id="14973"/>
+	<item fromid="14965" toid="14966" name="red crystals"/>
+	<item fromid="14967" toid="14971" article="a" name="crystal geode"/>
+	<item fromid="14972" toid="14973" article="a" name="large blue crystal"/>
 	<item id="14974" name="red crystals"/>
-	<item article="a" name="fossilised spine" id="14975"/>
-	<item article="a" name="fossilised spine" id="14976"/>
-	<item article="a" name="fossilised spine" id="14977"/>
-	<item article="a" name="fossilised spine" id="14978"/>
-	<item article="a" name="fossilised spine" id="14979"/>
-	<item article="a" name="fossilised spine" id="14980"/>
-	<item article="a" name="fossilised spine" id="14981"/>
-	<item article="a" name="fossilised spine" id="14982"/>
-	<item article="a" name="fossilised spine" id="14983"/>
-	<item article="a" name="fossilised spine" id="14984"/>
-	<item article="a" name="fossilised spine" id="14985"/>
-	<item article="a" name="fossilised spine" id="14986"/>
-	<item name="fossilised spine parts" id="14987"/>
-	<item name="fossilised spine parts" id="14988"/>
-	<item name="fossilised spine parts" id="14989"/>
-	<item name="fossilised spine parts" id="14990"/>
-	<item name="fossilised spine parts" id="14991"/>
-	<item name="fossilised spine parts" id="14992"/>
-	<item name="fossilised spine parts" id="14993"/>
-	<item name="fossilised spine parts" id="14994"/>
-	<item name="fossilised spine parts" id="14995"/>
-	<item name="fossilised spine parts" id="14996"/>
-	<item name="fossilised spine parts" id="14997"/>
-	<item name="fossilised spine parts" id="14998"/>
-	<item name="fossilised spine parts" id="14999"/>
-	<item name="basalt floor" id="15000"/>
-	<item name="basalt floor" id="15001"/>
-	<item name="basalt floor" id="15002"/>
-	<item name="basalt floor" id="15003"/>
-	<item article="a" name="crystal trail" id="15016"/>
-	<item article="a" name="crystal trail" id="15017"/>
-	<item article="a" name="crystal trail" id="15018"/>
-	<item article="a" name="crystal trail" id="15019"/>
-	<item article="a" name="crystal trail" id="15020"/>
-	<item article="a" name="crystal trail" id="15021"/>
-	<item name="mold floor" id="15022"/>
-	<item name="mold floor" id="15023"/>
-	<item name="mold floor" id="15024"/>
-	<item name="mold floor" id="15025"/>
-	<item name="mold floor" id="15026"/>
-	<item name="mold floor" id="15027"/>
-	<item name="mold floor" id="15028"/>
-	<item name="mold floor" id="15029"/>
-	<item name="mold floor" id="15030"/>
-	<item name="mold floor" id="15031"/>
-	<item name="mold floor" id="15032"/>
-	<item name="mold floor" id="15033"/>
-	<item name="mold floor" id="15034"/>
-	<item name="mold floor" id="15035"/>
-	<item name="mold floor" id="15036"/>
-	<item name="mold floor" id="15037"/>
-	<item name="mold floor" id="15038"/>
-	<item name="mold floor" id="15039"/>
-	<item name="mossy floor" id="15040"/>
-	<item name="mossy floor" id="15041"/>
-	<item name="mossy floor" id="15042"/>
-	<item name="mossy floor" id="15043"/>
-	<item name="mossy floor" id="15044"/>
-	<item name="mossy floor" id="15045"/>
-	<item name="mossy floor" id="15046"/>
-	<item name="mossy floor" id="15047"/>
-	<item name="mossy floor" id="15048"/>
-	<item name="mossy floor" id="15049"/>
-	<item name="mossy floor" id="15050"/>
-	<item name="mossy floor" id="15051"/>
-	<item name="mossy floor" id="15052"/>
-	<item name="mossy floor" id="15053"/>
-	<item name="mossy floor" id="15054"/>
-	<item name="mossy floor" id="15055"/>
-	<item name="mossy floor" id="15056"/>
-	<item name="mossy floor" id="15057"/>
-	<item name="mossy floor" id="15058"/>
-	<item name="mossy floor" id="15059"/>
-	<item article="a" name="mossy wall" id="15060"/>
-	<item article="a" name="mossy wall" id="15061"/>
-	<item article="a" name="mossy wall" id="15062"/>
-	<item article="a" name="mossy wall" id="15063"/>
-	<item article="a" name="mossy wall" id="15064"/>
-	<item article="a" name="mossy wall" id="15065"/>
-	<item article="a" name="mossy wall" id="15066"/>
+	<item fromid="14975" toid="14986" article="a" name="fossilised spine"/>
+	<item fromid="14987" toid="14999" name="fossilised spine parts"/>
+	<item fromid="15000" toid="15003" name="basalt floor"/>
+	<item fromid="15016" toid="15021" article="a" name="crystal trail"/>
+	<item fromid="15022" toid="15039" name="mold floor"/>
+	<item fromid="15040" toid="15059" name="mossy floor"/>
+	<item fromid="15060" toid="15066" article="a" name="mossy wall"/>
 	<item id="15067" article="a" name="mossy window"/>
-	<item article="a" name="mossy wall" id="15068"/>
-	<item article="a" name="mossy wall" id="15069"/>
-	<item article="a" name="mossy wall" id="15070"/>
-	<item article="a" name="mossy wall" id="15071"/>
-	<item article="a" name="mossy wall" id="15072"/>
-	<item article="a" name="mossy wall" id="15073"/>
-	<item article="a" name="mossy wall" id="15074"/>
+	<item fromid="15068" toid="15074" article="a" name="mossy wall"/>
 	<item id="15075" article="a" name="mossy window"/>
-	<item article="a" name="mossy wall" id="15076"/>
-	<item article="a" name="mossy wall" id="15077"/>
-	<item article="a" name="mossy wall" id="15078"/>
-	<item article="a" name="mossy wall" id="15079"/>
-	<item article="a" name="mossy wall" id="15080"/>
-	<item article="a" name="mossy wall" id="15081"/>
-	<item article="a" name="mossy wall" id="15082"/>
-	<item article="a" name="mossy wall" id="15083"/>
-	<item article="a" name="mossy wall" id="15084"/>
-	<item article="a" name="mossy wall" id="15085"/>
-	<item article="a" name="mossy wall" id="15086"/>
-	<item article="a" name="mossy wall" id="15087"/>
-	<item name="mushrooms" id="15088"/>
-	<item name="mushrooms" id="15089"/>
-	<item name="mushrooms" id="15090"/>
-	<item article="a" name="mossy wall" id="15091"/>
-	<item article="a" name="mossy wall" id="15092"/>
-	<item article="a" name="mossy wall" id="15093"/>
-	<item article="a" name="mossy wall" id="15094"/>
-	<item article="a" name="mossy wall" id="15095"/>
-	<item article="a" name="mossy wall" id="15096"/>
-	<item article="a" name="mossy wall" id="15097"/>
+	<item fromid="15076" toid="15087" article="a" name="mossy wall"/>
+	<item fromid="15088" toid="15090" name="mushrooms"/>
+	<item fromid="15091" toid="15097" article="a" name="mossy wall"/>
+	<item fromid="15098" toid="15099" name="RESERVED SPRITE"/>
 	<item id="15100" name="mushrooms"/>
-	<item article="a" name="mossy wall" id="15101"/>
-	<item article="a" name="mossy wall" id="15102"/>
-	<item article="a" name="mossy wall" id="15103"/>
-	<item article="a" name="mossy wall" id="15104"/>
-	<item article="a" name="mossy wall" id="15105"/>
-	<item article="a" name="mossy wall" id="15106"/>
-	<item article="a" name="mossy wall" id="15107"/>
+	<item fromid="15101" toid="15107" article="a" name="mossy wall"/>
 	<item id="15108" article="a" name="ramp">
 		<attribute key="floorchange" value="east"/>
 	</item>
@@ -24919,450 +24658,160 @@
 		<attribute key="floorchange" value="north"/>
 	</item>
 	<item id="15115" article="a" name="ramp"/>
-	<item article="a" name="bearded hedgehog mushroom" id="15116"/>
-	<item article="a" name="bearded hedgehog mushroom" id="15117"/>
-	<item name="small glowing mushrooms" id="15118"/>
-	<item name="small glowing mushrooms" id="15119"/>
-	<item name="small glowing mushrooms" id="15120"/>
+	<item fromid="15116" toid="15117" article="a" name="bearded hedgehog mushroom"/>
+	<item fromid="15118" toid="15120" name="small glowing mushrooms"/>
 	<item id="15121" name="small white beech mushrooms"/>
 	<item id="15122" name="small cortinarius mushrooms"/>
 	<item id="15123" name="small gomphidius mushroom"/>
-	<item article="a" name="paxillus mushroom" id="15124"/>
-	<item article="a" name="paxillus mushroom" id="15125"/>
+	<item fromid="15124" toid="15125" article="a" name="paxillus mushroom"/>
 	<item id="15126" article="a" name="dark blue mushroom"/>
 	<item id="15127" article="a" name="blue glowing mushroom"/>
 	<item id="15128" article="a" name="yellow glowing mushroom"/>
 	<item id="15129" name="small glowing mushrooms"/>
-	<item article="a" name="large boletus mushroom" id="15130"/>
-	<item article="a" name="large boletus mushroom" id="15131"/>
+	<item fromid="15130" toid="15131" article="a" name="large boletus mushroom"/>
 	<item id="15132" article="an" name="orange dankshroom"/>
 	<item id="15133" article="a" name="large sticky mushroom"/>
 	<item id="15134" article="a" name="large fungus stipe"/>
 	<item id="15135" article="a" name="large sticky mushroom"/>
 	<item id="15136" article="a" name="large spongy mushroom"/>
-	<item name="huge brown mushroom" id="15137"/>
-	<item name="huge brown mushroom" id="15138"/>
-	<item name="huge brown mushroom" id="15139"/>
-	<item name="huge brown mushroom" id="15140"/>
+	<item fromid="15137" toid="15140" name="huge brown mushroom"/>
 	<item id="15141" name="mushrooms growing on a pillar"/>
+	<item id="15142" name="RESERVED SPRITE"/>
 	<item id="15143" name="stalagmites"/>
 	<item id="15144" name="mushroom corkscrew stairs">
 		<attribute key="floorchange" value="north"/>
 	</item>
-	<item name="mushroom corkscrew stairs" id="15145">
+	<item fromid="15145" toid="15146" name="mushroom corkscrew stairs">
 		<attribute key="floorchange" value="down"/>
 	</item>
-	<item name="mushroom corkscrew stairs" id="15146">
-		<attribute key="floorchange" value="down"/>
-	</item>
+	<item fromid="15147" toid="15150" name="mushroom corkscrew stairs"/>
 	<item id="15151" article="a" name="toad stool">
-		<attribute key="rotateto" value="17774"/>
+		<attribute key="rotateto" value="15152"/>
 	</item>
 	<item id="15152" article="a" name="toad stool">
-		<attribute key="rotateto" value="17775"/>
+		<attribute key="rotateto" value="15153"/>
 	</item>
 	<item id="15153" article="a" name="toad stool">
-		<attribute key="rotateto" value="17776"/>
+		<attribute key="rotateto" value="15154"/>
 	</item>
 	<item id="15154" article="a" name="toad stool">
-		<attribute key="rotateto" value="17773"/>
+		<attribute key="rotateto" value="15151"/>
 	</item>
 	<item id="15155" article="a" name="mushroom table"/>
-	<item article="a" name="large decorative mushroom" id="15156"/>
-	<item article="a" name="large decorative mushroom" id="15157"/>
-	<item article="a" name="huge red crystal" id="15165"/>
-	<item article="a" name="huge red crystal" id="15166"/>
-	<item article="a" name="huge red crystal" id="15167"/>
-	<item article="a" name="huge red crystal" id="15168"/>
-	<item article="a" name="huge red crystal" id="15169"/>
-	<item article="a" name="huge red crystal" id="15170"/>
-	<item article="a" name="huge red crystal" id="15171"/>
-	<item article="a" name="huge red crystal" id="15172"/>
-	<item article="a" name="huge red crystal" id="15173"/>
-	<item article="a" name="huge red crystal" id="15174"/>
-	<item article="a" name="huge red crystal" id="15175"/>
-	<item article="a" name="huge red crystal" id="15176"/>
-	<item article="a" name="huge red crystal" id="15177"/>
-	<item article="a" name="huge red crystal" id="15178"/>
-	<item article="a" name="huge red crystal" id="15179"/>
-	<item article="a" name="huge red crystal" id="15180"/>
-	<item article="a" name="huge red crystal" id="15181"/>
-	<item article="a" name="huge red crystal" id="15182"/>
-	<item article="a" name="huge red crystal" id="15183"/>
-	<item article="a" name="huge red crystal" id="15184"/>
-	<item article="a" name="huge red crystal" id="15185"/>
-	<item article="a" name="huge red crystal" id="15186"/>
-	<item article="a" name="huge red crystal" id="15187"/>
-	<item article="a" name="huge red crystal" id="15188"/>
-	<item name="mushrooms" id="15205"/>
-	<item name="mushrooms" id="15206"/>
-	<item name="mushrooms" id="15207"/>
-	<item name="mushrooms" id="15208"/>
-	<item name="mushrooms" id="15209"/>
-	<item name="mushrooms" id="15210"/>
-	<item name="mushrooms" id="15211"/>
-	<item name="mushrooms" id="15212"/>
-	<item name="mushrooms" id="15213"/>
-	<item name="mushrooms" id="15214"/>
-	<item name="mushrooms" id="15215"/>
-	<item name="mushrooms" id="15216"/>
-	<item article="a" name="crystal wall" id="15221"/>
-	<item article="a" name="crystal wall" id="15222"/>
-	<item article="a" name="crystal wall" id="15223"/>
-	<item article="a" name="crystal wall" id="15224"/>
-	<item article="a" name="crystal wall" id="15229"/>
-	<item article="a" name="crystal wall" id="15230"/>
-	<item article="a" name="crystal wall" id="15231"/>
-	<item article="a" name="crystal wall" id="15237"/>
-	<item article="a" name="crystal wall" id="15238"/>
-	<item article="a" name="crystal wall" id="15239"/>
-	<item article="a" name="crystal wall" id="15240"/>
-	<item article="a" name="crystal wall" id="15251"/>
-	<item article="a" name="crystal wall" id="15260"/>
-	<item article="a" name="crystal wall" id="15261"/>
-	<item article="a" name="crystal wall" id="15262"/>
-	<item article="a" name="crystal wall" id="15263"/>
-	<item article="a" name="crystal wall" id="15264"/>
-	<item article="a" name="crystal wall" id="15265"/>
-	<item article="a" name="crystal wall" id="15266"/>
-	<item article="a" name="mossy wall" id="15267"/>
-	<item article="a" name="mossy wall" id="15268"/>
-	<item article="a" name="crystal wall" id="15269"/>
-	<item article="a" name="crystal wall" id="15270"/>
-	<item article="a" name="crystal wall" id="15271"/>
-	<item article="a" name="crystal wall" id="15272"/>
-	<item article="a" name="crystal wall" id="15273"/>
-	<item article="a" name="crystal wall" id="15274"/>
+	<item fromid="15156" toid="15157" article="a" name="large decorative mushroom"/>
+	<item fromid="15165" toid="15188" article="a" name="huge red crystal"/>
+	<item fromid="15205" toid="15216" name="mushrooms"/>
+	<item fromid="15217" toid="15220" name="RESERVED SPRITE"/>
+	<item fromid="15221" toid="15266" article="a" name="crystal wall"/>
+	<item fromid="15267" toid="15268" article="a" name="mossy wall"/>
+	<item fromid="15269" toid="15274" article="a" name="crystal wall"/>
+	<item id="15275" name="RESERVED SPRITE"/>
 	<item id="15276" article="a" name="miniature house">
 		<attribute key="description" value="This trophy was awarded to honour the greatest architects in Tibia."/>
 		<attribute key="weight" value="1000"/>
 		<attribute key="writeable" value="1"/>
-		<attribute key="maxTextLen" value="128"/>
+		<attribute key="maxTextLen" value="99"/>
 	</item>
-	<item article="a" name="crystal wall" id="15290"/>
-	<item article="a" name="crystal wall" id="15291"/>
-	<item article="a" name="crystal wall" id="15292"/>
-	<item article="a" name="crystal wall" id="15296"/>
-	<item name="basalt" id="15298"/>
-	<item name="basalt" id="15299"/>
-	<item name="basalt" id="15300"/>
-	<item name="basalt" id="15301"/>
-	<item article="a" name="basalt wall" id="15309"/>
-	<item article="a" name="basalt wall" id="15311"/>
-	<item article="a" name="basalt wall" id="15312"/>
-	<item article="a" name="basalt wall" id="15313"/>
-	<item article="a" name="basalt wall" id="15314"/>
+	<item fromid="15277" toid="15289" name="RESERVED SPRITE"/>
+	<item fromid="15290" toid="15296" article="a" name="crystal wall"/>
+	<item id="15297" name="RESERVED SPRITE"/>
+	<item fromid="15298" toid="15301" name="basalt"/>
+	<item fromid="15302" toid="15308" name="RESERVED SPRITE"/>
+	<item fromid="15309" toid="15318" article="a" name="basalt wall"/>
 	<item id="15319" article="a" name="large blue crystal"/>
 	<item id="15320" article="a" name="large crystal teleporter">
 		<attribute key="type" value="teleport"/>
 		<attribute key="effect" value="teleport"/>
 	</item>
-	<item name="basalt" id="15321"/>
-	<item name="basalt" id="15322"/>
-	<item name="basalt" id="15323"/>
-	<item name="basalt" id="15324"/>
-	<item name="basalt" id="15325"/>
-	<item name="basalt" id="15326"/>
-	<item name="basalt" id="15327"/>
-	<item name="basalt" id="15328"/>
-	<item name="basalt" id="15329"/>
-	<item name="basalt" id="15330"/>
-	<item name="basalt" id="15331"/>
-	<item name="basalt" id="15332"/>
-	<item name="crystals" id="15333"/>
-	<item name="crystals" id="15334"/>
-	<item name="crystals" id="15335"/>
-	<item name="crystals" id="15336"/>
-	<item name="crystals" id="15337"/>
-	<item name="crystals" id="15338"/>
-	<item name="crystals" id="15339"/>
-	<item name="crystals" id="15340"/>
-	<item name="crystals" id="15341"/>
-	<item name="crystals" id="15342"/>
-	<item name="crystals" id="15343"/>
-	<item name="crystals" id="15344"/>
+	<item fromid="15321" toid="15332" name="basalt"/>
+	<item fromid="15333" toid="15344" name="crystals"/>
 	<item id="15345" article="a" name="basalt wall"/>
-	<item article="a" name="mossy wall" id="15347"/>
-	<item article="a" name="mossy wall" id="15348"/>
-	<item article="a" name="mossy wall" id="15349"/>
-	<item article="a" name="mossy wall" id="15350"/>
-	<item article="a" name="mossy wall" id="15355"/>
-	<item article="a" name="mossy wall" id="15356"/>
-	<item article="a" name="mossy wall" id="15357"/>
-	<item article="a" name="mossy wall" id="15358"/>
-	<item article="a" name="mossy wall" id="15359"/>
-	<item article="a" name="mossy wall" id="15360"/>
-	<item article="a" name="mossy wall" id="15361"/>
-	<item article="a" name="mossy wall" id="15362"/>
-	<item article="a" name="mossy wall" id="15363"/>
-	<item article="a" name="mossy wall" id="15364"/>
-	<item article="a" name="mossy wall" id="15365"/>
-	<item article="a" name="mossy wall" id="15366"/>
-	<item article="a" name="mossy wall" id="15367"/>
-	<item article="a" name="mossy wall" id="15368"/>
-	<item article="a" name="mossy wall" id="15369"/>
-	<item article="a" name="mossy wall" id="15370"/>
-	<item article="a" name="mossy wall" id="15371"/>
-	<item article="a" name="mossy wall" id="15372"/>
-	<item article="a" name="mossy wall" id="15373"/>
-	<item article="a" name="mossy wall" id="15374"/>
-	<item article="a" name="mossy wall" id="15375"/>
-	<item article="a" name="mossy wall" id="15376"/>
-	<item article="a" name="mossy wall" id="15377"/>
-	<item article="a" name="mossy wall" id="15378"/>
-	<item article="a" name="mossy wall" id="15379"/>
-	<item article="a" name="mossy wall" id="15380"/>
-	<item article="a" name="mossy wall" id="15381"/>
-	<item article="a" name="mossy wall" id="15382"/>
-	<item article="a" name="mossy wall" id="15383"/>
-	<item article="a" name="mossy wall" id="15384"/>
-	<item article="a" name="mossy wall" id="15385"/>
-	<item article="a" name="mossy wall" id="15386"/>
-	<item article="a" name="mossy wall" id="15387"/>
-	<item article="a" name="mossy wall" id="15388"/>
-	<item article="a" name="mossy wall" id="15389"/>
-	<item article="a" name="mossy wall" id="15392"/>
-	<item name="mossy spots" id="15393"/>
-	<item name="mossy spots" id="15394"/>
-	<item name="mossy spots" id="15395"/>
-	<item name="mossy spots" id="15396"/>
-	<item name="mossy spots" id="15397"/>
-	<item name="mossy spots" id="15398"/>
-	<item article="a" name="mossy wall" id="15408"/>
-	<item article="a" name="mossy wall" id="15409"/>
-	<item article="a" name="mossy wall" id="15410"/>
-	<item article="a" name="mossy wall" id="15411"/>
-	<item article="a" name="mossy wall" id="15412"/>
-	<item article="a" name="mossy wall" id="15413"/>
-	<item article="a" name="mossy wall" id="15414"/>
-	<item article="a" name="mossy wall" id="15415"/>
-	<item article="a" name="mossy wall" id="15416"/>
-	<item article="a" name="mossy wall" id="15417"/>
-	<item article="a" name="mossy wall" id="15418"/>
-	<item article="a" name="mossy wall" id="15419"/>
-	<item article="a" name="basalt crystal wall" id="15420"/>
-	<item article="a" name="basalt crystal wall" id="15421"/>
-	<item article="a" name="basalt crystal wall" id="15422"/>
-	<item article="a" name="basalt crystal wall" id="15423"/>
-	<item article="a" name="basalt crystal wall" id="15424"/>
-	<item article="a" name="basalt crystal wall" id="15425"/>
-	<item article="a" name="basalt crystal wall" id="15426"/>
-	<item article="a" name="basalt crystal wall" id="15427"/>
-	<item article="a" name="basalt crystal wall" id="15428"/>
-	<item article="a" name="basalt crystal wall" id="15429"/>
-	<item article="a" name="basalt crystal wall" id="15430"/>
-	<item article="a" name="basalt crystal wall" id="15431"/>
-	<item article="a" name="basalt crystal wall" id="15432"/>
-	<item article="a" name="basalt crystal wall" id="15433"/>
-	<item article="a" name="basalt crystal wall" id="15434"/>
-	<item article="a" name="basalt crystal wall" id="15435"/>
-	<item article="a" name="basalt crystal wall" id="15436"/>
-	<item article="a" name="basalt crystal wall" id="15437"/>
-	<item article="a" name="basalt crystal wall" id="15438"/>
-	<item article="a" name="basalt crystal wall" id="15439"/>
-	<item article="a" name="basalt crystal wall" id="15440"/>
-	<item article="a" name="basalt crystal wall" id="15441"/>
-	<item article="a" name="basalt crystal wall" id="15442"/>
-	<item article="a" name="basalt crystal wall" id="15443"/>
-	<item article="a" name="basalt crystal wall" id="15444"/>
-	<item article="a" name="basalt crystal wall" id="15445"/>
-	<item article="a" name="basalt crystal wall" id="15446"/>
-	<item article="a" name="basalt crystal wall" id="15447"/>
-	<item article="a" name="basalt crystal wall" id="15448"/>
-	<item article="a" name="basalt crystal wall" id="15449"/>
-	<item article="a" name="basalt crystal wall" id="15450"/>
-	<item article="a" name="basalt crystal wall" id="15451"/>
-	<item article="a" name="basalt crystal wall" id="15452"/>
-	<item article="a" name="basalt crystal wall" id="15453"/>
-	<item article="a" name="mossy wall" id="15454"/>
-	<item article="a" name="mossy wall" id="15455"/>
-	<item article="a" name="mossy wall" id="15456"/>
-	<item article="a" name="mossy wall" id="15457"/>
-	<item article="a" name="mossy wall" id="15458"/>
-	<item article="a" name="mossy wall" id="15459"/>
-	<item article="a" name="mossy wall" id="15460"/>
-	<item article="a" name="mossy wall" id="15461"/>
-	<item article="a" name="mossy wall" id="15462"/>
-	<item article="a" name="mossy wall" id="15463"/>
-	<item article="a" name="mossy wall" id="15464"/>
-	<item article="a" name="mossy wall" id="15465"/>
+	<item id="15246" name="RESERVED SPRITE"/>
+	<item fromid="15347" toid="15392" article="a" name="mossy wall"/>
+	<item fromid="15393" toid="15398" name="mossy spots"/>
+	<item fromid="15408" toid="15419" article="a" name="mossy wall"/>
+	<item fromid="15420" toid="15453" article="a" name="basalt crystal wall"/>
+	<item fromid="15454" toid="15465" article="a" name="mossy wall"/>
 	<item id="15466" name="crystals"/>
 	<item id="15467" article="a" name="large blue crystal"/>
-	<item name="crystal glass floor" id="15468"/>
-	<item name="crystal glass floor" id="15469"/>
-	<item name="crystal glass floor" id="15470"/>
-	<item name="crystal glass floor" id="15471"/>
-	<item name="crystal glass floor" id="15472"/>
-	<item article="a" name="stone block" id="15484"/>
-	<item article="a" name="stone block" id="15485"/>
-	<item article="a" name="stone block" id="15486"/>
-	<item article="a" name="stone block" id="15487"/>
-	<item article="a" name="small stream" id="15488"/>
-	<item article="a" name="small stream" id="15489"/>
-	<item article="a" name="small stream" id="15490"/>
-	<item article="a" name="small stream" id="15491"/>
-	<item article="a" name="small stream" id="15492"/>
-	<item article="a" name="small stream" id="15493"/>
-	<item article="a" name="small stream" id="15494"/>
-	<item article="a" name="small stream" id="15495"/>
-	<item article="a" name="small stream" id="15496"/>
-	<item article="a" name="small stream" id="15497"/>
-	<item article="a" name="small stream" id="15498"/>
-	<item article="a" name="small stream" id="15499"/>
-	<item article="a" name="small stream" id="15500"/>
-	<item article="a" name="small stream" id="15501"/>
-	<item article="a" name="small stream" id="15502"/>
-	<item article="a" name="small stream" id="15503"/>
-	<item article="a" name="small stream" id="15504"/>
-	<item article="a" name="small stream" id="15505"/>
+	<item fromid="15468" toid="15472" name="crystal glass floor"/>
+	<item fromid="15473" toid="15483" name="RESERVED SPRITE"/>
+	<item fromid="15484" toid="15487" article="a" name="stone block"/>
+	<item fromid="15488" toid="15505" article="a" name="small stream"/>
 	<item id="15506" article="a" name="simple bed">
 		<attribute key="type" value="bed"/>
 		<attribute key="partnerdirection" value="south"/>
-		<attribute key="malesleeper" value="18031"/>
-		<attribute key="femalesleeper" value="18035"/>
+		<attribute key="malesleeper" value="15510"/>
+		<attribute key="femalesleeper" value="15514"/>
 	</item>
 	<item id="15507" article="a" name="simple bed">
 		<attribute key="type" value="bed"/>
 		<attribute key="partnerdirection" value="north"/>
-		<attribute key="malesleeper" value="18032"/>
-		<attribute key="femalesleeper" value="18036"/>
+		<attribute key="malesleeper" value="15511"/>
+		<attribute key="femalesleeper" value="15515"/>
 	</item>
 	<item id="15508" article="a" name="simple bed">
 		<attribute key="type" value="bed"/>
 		<attribute key="partnerdirection" value="east"/>
-		<attribute key="malesleeper" value="18033"/>
-		<attribute key="femalesleeper" value="18037"/>
+		<attribute key="malesleeper" value="15512"/>
+		<attribute key="femalesleeper" value="15516"/>
 	</item>
 	<item id="15509" article="a" name="simple bed">
 		<attribute key="type" value="bed"/>
 		<attribute key="partnerdirection" value="west"/>
-		<attribute key="malesleeper" value="18034"/>
-		<attribute key="femalesleeper" value="18038"/>
+		<attribute key="malesleeper" value="15513"/>
+		<attribute key="femalesleeper" value="15517"/>
 	</item>
 	<item id="15510" article="a" name="simple bed">
 		<attribute key="type" value="bed"/>
 		<attribute key="partnerdirection" value="south"/>
-		<attribute key="malesleeper" value="18027"/>
+		<attribute key="malesleeper" value="15506"/>
 	</item>
 	<item id="15511" article="a" name="simple bed">
 		<attribute key="type" value="bed"/>
 		<attribute key="partnerdirection" value="north"/>
-		<attribute key="malesleeper" value="18028"/>
+		<attribute key="malesleeper" value="15507"/>
 	</item>
 	<item id="15512" article="a" name="simple bed">
 		<attribute key="type" value="bed"/>
 		<attribute key="partnerdirection" value="east"/>
-		<attribute key="malesleeper" value="18029"/>
+		<attribute key="malesleeper" value="15508"/>
 	</item>
 	<item id="15513" article="a" name="simple bed">
 		<attribute key="type" value="bed"/>
 		<attribute key="partnerdirection" value="west"/>
-		<attribute key="malesleeper" value="18030"/>
+		<attribute key="malesleeper" value="15509"/>
 	</item>
 	<item id="15514" article="a" name="simple bed">
 		<attribute key="type" value="bed"/>
 		<attribute key="partnerdirection" value="south"/>
-		<attribute key="femalesleeper" value="18027"/>
+		<attribute key="femalesleeper" value="15506"/>
 	</item>
 	<item id="15515" article="a" name="simple bed">
 		<attribute key="type" value="bed"/>
 		<attribute key="partnerdirection" value="north"/>
-		<attribute key="femalesleeper" value="18028"/>
+		<attribute key="femalesleeper" value="15507"/>
 	</item>
 	<item id="15516" article="a" name="simple bed">
 		<attribute key="type" value="bed"/>
 		<attribute key="partnerdirection" value="east"/>
-		<attribute key="femalesleeper" value="18029"/>
+		<attribute key="femalesleeper" value="15508"/>
 	</item>
 	<item id="15517" article="a" name="simple bed">
 		<attribute key="type" value="bed"/>
 		<attribute key="partnerdirection" value="west"/>
-		<attribute key="femalesleeper" value="18030"/>
+		<attribute key="femalesleeper" value="15509"/>
 	</item>
-	<item article="a" name="cave painting" id="15518"/>
-	<item article="a" name="cave painting" id="15519"/>
-	<item article="a" name="cave painting" id="15520"/>
-	<item article="a" name="cave painting" id="15521"/>
-	<item article="a" name="cave painting" id="15522"/>
-	<item article="a" name="cave painting" id="15523"/>
-	<item article="a" name="cave painting" id="15524"/>
-	<item article="a" name="cave painting" id="15525"/>
-	<item article="a" name="cave painting" id="15526"/>
-	<item article="a" name="cave painting" id="15527"/>
-	<item article="a" name="lightsource" id="15528"/>
-	<item article="a" name="lightsource" id="15529"/>
-	<item article="a" name="lightsource" id="15530"/>
-	<item article="a" name="lightsource" id="15531"/>
-	<item name="mushroom sponge" id="15532"/>
-	<item name="mushroom sponge" id="15533"/>
-	<item name="mushroom sponge" id="15534"/>
-	<item article="a" name="titanic mushroom" id="15535"/>
-	<item article="a" name="titanic mushroom" id="15536"/>
-	<item article="a" name="titanic mushroom" id="15537"/>
-	<item article="a" name="titanic mushroom" id="15538"/>
-	<item article="a" name="titanic mushroom" id="15539"/>
-	<item article="a" name="titanic mushroom" id="15540"/>
-	<item article="a" name="titanic mushroom" id="15541"/>
-	<item article="a" name="titanic mushroom" id="15542"/>
-	<item article="a" name="titanic mushroom" id="15543"/>
-	<item article="a" name="titanic mushroom" id="15544"/>
-	<item article="a" name="titanic mushroom" id="15545"/>
-	<item article="a" name="titanic mushroom" id="15546"/>
-	<item article="a" name="titanic mushroom" id="15547"/>
-	<item article="a" name="titanic mushroom" id="15548"/>
-	<item article="a" name="titanic mushroom" id="15549"/>
-	<item article="a" name="titanic mushroom" id="15550"/>
-	<item article="a" name="titanic mushroom" id="15551"/>
-	<item article="a" name="titanic mushroom" id="15552"/>
-	<item article="a" name="titanic mushroom" id="15553"/>
-	<item article="a" name="titanic mushroom" id="15554"/>
-	<item article="a" name="titanic mushroom" id="15555"/>
-	<item article="a" name="titanic mushroom" id="15556"/>
-	<item article="a" name="titanic mushroom" id="15557"/>
-	<item article="a" name="titanic mushroom" id="15558"/>
-	<item article="a" name="titanic mushroom" id="15559"/>
-	<item article="a" name="titanic mushroom" id="15560"/>
-	<item article="a" name="titanic mushroom" id="15561"/>
-	<item article="a" name="titanic mushroom" id="15562"/>
-	<item article="a" name="titanic mushroom" id="15563"/>
-	<item article="a" name="titanic mushroom" id="15564"/>
-	<item article="a" name="titanic mushroom" id="15565"/>
-	<item article="a" name="titanic mushroom" id="15566"/>
-	<item article="a" name="titanic mushroom" id="15567"/>
-	<item article="a" name="titanic mushroom" id="15568"/>
-	<item article="a" name="titanic mushroom" id="15569"/>
-	<item article="a" name="titanic mushroom" id="15570"/>
-	<item article="a" name="titanic mushroom" id="15571"/>
-	<item article="a" name="titanic mushroom" id="15572"/>
-	<item article="a" name="titanic mushroom" id="15573"/>
-	<item article="a" name="titanic mushroom" id="15574"/>
-	<item article="a" name="titanic mushroom" id="15575"/>
-	<item article="a" name="titanic mushroom" id="15576"/>
-	<item article="a" name="titanic mushroom" id="15577"/>
-	<item article="a" name="titanic mushroom" id="15578"/>
-	<item article="a" name="titanic mushroom" id="15579"/>
-	<item article="a" name="titanic mushroom" id="15580"/>
-	<item article="a" name="titanic mushroom" id="15581"/>
-	<item article="a" name="titanic mushroom" id="15582"/>
-	<item article="a" name="titanic mushroom" id="15583"/>
-	<item name="wooden floor" id="15596"/>
-	<item name="wooden floor" id="15597"/>
-	<item name="wooden floor" id="15598"/>
-	<item name="wooden floor" id="15599"/>
-	<item name="wooden floor" id="15600"/>
-	<item name="wooden floor" id="15605"/>
-	<item name="wooden floor" id="15606"/>
-	<item name="wooden floor" id="15607"/>
-	<item name="wooden floor" id="15608"/>
+	<item fromid="15518" toid="15527" article="a" name="cave painting"/>
+	<item fromid="15528" toid="15531" article="a" name="lightsource"/>
+	<item fromid="15532" toid="15534" name="mushroom sponge"/>
+	<item fromid="15535" toid="15583" article="a" name="titanic mushroom"/>
+	<item fromid="15584" toid="15595" name="mushroom sponge"/>
+	<item fromid="15596" toid="15608" name="wooden floor"/>
 	<item id="15611" article="a" name="stone pillar"/>
-	<item name="wooden floor" id="15612"/>
-	<item name="wooden floor" id="15613"/>
-	<item name="wooden floor" id="15614"/>
-	<item name="wooden floor" id="15615"/>
-	<item article="a" name="small stream" id="15616"/>
-	<item article="a" name="small stream" id="15616"/>
-	<item article="a" name="small stream" id="15618"/>
-	<item article="a" name="small stream" id="15619"/>
+	<item fromid="15612" toid="15615" name="wooden floor"/>
+	<item fromid="15616" toid="15619" article="a" name="small stream"/>
+	<item fromid="15620" toid="15631" article="a" name="mossy floor"/>
 	<item id="15632" article="a" name="giant carrot">
 		<attribute key="description" value="Someone turned it upside down."/>
 	</item>
@@ -25370,54 +24819,13 @@
 		<attribute key="writeable" value="1"/>
 		<attribute key="maxTextLen" value="249"/>
 	</item>
+	<item id="15634" article="a" name="carrot"/>
 	<item id="15635" name="carrots"/>
-	<item article="a" name="carrot" id="15636"/>
-	<item article="a" name="carrot" id="15637"/>
-	<item article="a" name="carrot" id="15638"/>
-	<item article="a" name="giant carrot" id="15639"/>
-	<item article="a" name="giant carrot" id="15640"/>
-	<item name="stone floor" id="15641"/>
-	<item name="stone floor" id="15642"/>
-	<item name="stone floor" id="15643"/>
-	<item name="stone floor" id="15644"/>
-	<item name="stone floor" id="15645"/>
-	<item name="stone floor" id="15646"/>
-	<item name="stone floor" id="15647"/>
-	<item name="stone floor" id="15648"/>
-	<item name="stone floor" id="15649"/>
-	<item name="stone floor" id="15650"/>
-	<item name="stone floor" id="15651"/>
-	<item name="stone floor" id="15652"/>
-	<item name="stone floor" id="15653"/>
-	<item name="stone floor" id="15654"/>
-	<item name="stone floor" id="15655"/>
-	<item name="stone floor" id="15656"/>
-	<item name="stone floor" id="15657"/>
-	<item name="stone floor" id="15658"/>
-	<item name="stone floor" id="15659"/>
-	<item name="stone floor" id="15660"/>
-	<item name="stone floor" id="15661"/>
-	<item name="stone floor" id="15662"/>
-	<item name="stone floor" id="15663"/>
-	<item name="stone floor" id="15664"/>
-	<item name="stone floor" id="15665"/>
-	<item name="stone floor" id="15666"/>
-	<item name="stone floor" id="15667"/>
-	<item name="stone floor" id="15668"/>
-	<item name="stone floor" id="15669"/>
-	<item name="stone floor" id="15670"/>
-	<item name="stone floor" id="15671"/>
-	<item name="stone floor" id="15672"/>
-	<item name="stone floor" id="15673"/>
-	<item name="stone floor" id="15674"/>
-	<item article="a" name="stone" id="15679"/>
-	<item article="a" name="stone" id="15680"/>
-	<item article="a" name="stone" id="15681"/>
-	<item article="a" name="stone" id="15682"/>
-	<item article="a" name="stone" id="15683"/>
-	<item article="a" name="stone" id="15684"/>
-	<item article="a" name="stone" id="15685"/>
-	<item article="a" name="stone" id="15686"/>
+	<item fromid="15636" toid="15638" article="a" name="carrot"/>
+	<item fromid="15639" toid="15640" article="a" name="giant carrot"/>
+	<item fromid="15641" toid="15674" name="stone floor"/>
+	<item fromid="15675" toid="15678" name="unknown item"/>
+	<item fromid="15679" toid="15686" article="a" name="stone"/>
 	<item id="15687" article="a" name="closed door">
 		<attribute key="type" value="door"/>
 		<attribute key="blockprojectile" value="1"/>
@@ -25426,8 +24834,8 @@
 		<attribute key="type" value="door"/>
 	</item>
 	<item id="15689" article="a" name="shovel"/>
-	<item article="a" name="lava stream" id="15690"/>
-	<item article="a" name="lava stream" id="15691"/>
+	<item fromid="15690" toid="15691" article="a" name="lava stream"/>
+	<item fromid="15692" toid="15695" name="RESERVED SPRITE"/>
 	<item id="15696" article="a" name="gnomish extraction crystal">
 		<attribute key="weight" value="450"/>
 	</item>
@@ -25440,11 +24848,12 @@
 	<item id="15699" name="some mushroom fertilizer">
 		<attribute key="weight" value="700"/>
 	</item>
-	<item id="15700" name="unknown item"/>
+	<item id="15700" article="a" name="mushroom"/> <!-- unconfirmed name -->
 	<item id="15701" name="churned ground">
 		<attribute key="decayto" value="18340"/>
 		<attribute key="duration" value="40"/>
 	</item>
+	<item id="15702" name="RESERVED SPRITE"/>
 	<item id="15703" article="a" name="gnomish repair crystal">
 		<attribute key="weight" value="450"/>
 	</item>
@@ -25469,80 +24878,24 @@
 	<item id="15710" article="a" name="target dummy"/>
 	<item id="15711" article="an" name="innocent target"/>
 	<item id="15712" article="a" name="damaged crystal"/>
-	<item article="a" name="large crystal" id="15713"/>
-	<item article="a" name="large crystal" id="15714"/>
-	<item article="a" name="large crystal" id="15715"/>
-	<item article="a" name="large crystal" id="15716"/>
+	<item fromid="15713" toid="15716" article="a" name="large crystal"/>
 	<item id="15717" name="basalt floor"/>
 	<item id="15718" name="stairs"/>
-	<item name="icy bones" id="15719"/>
-	<item name="icy bones" id="15720"/>
-	<item name="icy bones" id="15721"/>
-	<item name="icy bones" id="15722"/>
-	<item name="icy bones" id="15723"/>
-	<item name="icy bones" id="15724"/>
-	<item name="icy bones" id="15725"/>
-	<item name="icy bones" id="15726"/>
-	<item name="icy bones" id="15727"/>
-	<item name="icy bones" id="15728"/>
-	<item name="icy bones" id="15729"/>
-	<item name="icy bones" id="15730"/>
-	<item name="icy bones" id="15731"/>
-	<item name="icy bones" id="15732"/>
-	<item name="icy bones" id="15733"/>
-	<item name="icy bones" id="15734"/>
-	<item name="icy bones" id="15735"/>
-	<item name="icy bones" id="15736"/>
-	<item name="icy bones" id="15737"/>
-	<item name="icy bones" id="15738"/>
-	<item name="icy bones" id="15739"/>
-	<item name="icy bones" id="15740"/>
-	<item name="icy bones" id="15741"/>
-	<item article="an" name="icy bone railing" id="15747"/>
-	<item article="an" name="icy bone railing" id="15748"/>
-	<item article="an" name="icy bone railing" id="15749"/>
-	<item article="an" name="icy bone railing" id="15750"/>
-	<item article="an" name="icy bone railing" id="15751"/>
-	<item article="an" name="icy skull" id="15752"/>
-	<item article="an" name="icy skull" id="15753"/>
-	<item name="icy bones" id="15754"/>
-	<item name="icy bones" id="15755"/>
-	<item name="icy bones" id="15756"/>
-	<item name="icy bones" id="15757"/>
+	<item fromid="15719" toid="15741" name="icy bones"/>
+	<item fromid="15747" toid="15751" article="an" name="icy bone railing"/>
+	<item fromid="15752" toid="15753" article="an" name="icy skull"/>
+	<item fromid="15754" toid="15757" name="icy bones"/>
 	<item id="15758" article="an" name="icy wall"/>
-	<item name="icy bones" id="15759"/>
-	<item name="icy bones" id="15760"/>
-	<item name="icy bones" id="15761"/>
-	<item name="icy bones" id="15762"/>
-	<item name="icy bones" id="15763"/>
-	<item name="icy bones" id="15764"/>
-	<item name="icy bones" id="15765"/>
-	<item name="icy bones" id="15766"/>
-	<item article="an" name="icy bone claw" id="15767"/>
-	<item article="an" name="icy bone claw" id="15768"/>
-	<item article="an" name="icy bone claw" id="15769"/>
-	<item article="an" name="icy bone claw" id="15770"/>
-	<item article="an" name="icy wall" id="15771"/>
-	<item article="an" name="icy wall" id="15772"/>
-	<item article="an" name="icy wall" id="15773"/>
-	<item article="an" name="icy mammoth horn" id="15774"/>
-	<item article="an" name="icy mammoth horn" id="15775"/>
-	<item article="an" name="icy mammoth horn" id="15776"/>
-	<item article="an" name="icy mammoth horn" id="15777"/>
-	<item article="an" name="icy mammoth ear" id="15778"/>
-	<item article="an" name="icy mammoth ear" id="15779"/>
-	<item article="an" name="icy mammoth head" id="15780"/>
-	<item article="an" name="icy mammoth head" id="15781"/>
-	<item article="an" name="icy mammoth trunk" id="15782"/>
-	<item article="an" name="icy mammoth trunk" id="15783"/>
-	<item article="an" name="icy mammoth trunk" id="15784"/>
+	<item fromid="15759" toid="15766" name="icy bones"/>
+	<item fromid="15767" toid="15770" article="an" name="icy bone claw"/>
+	<item fromid="15771" toid="15773" article="an" name="icy wall"/>
+	<item fromid="15774" toid="15777" article="an" name="icy mammoth horn"/>
+	<item fromid="15778" toid="15779" article="an" name="icy mammoth ear"/>
+	<item fromid="15780" toid="15781" article="an" name="icy mammoth head"/>
+	<item fromid="15782" toid="15784" article="an" name="icy mammoth trunk"/>
 	<item id="15785" name="ice stone floor"/>
-	<item name="bones" id="15786"/>
-	<item name="bones" id="15787"/>
-	<item name="bones" id="15788"/>
-	<item name="bones" id="15789"/>
-	<item name="icy bones" id="15790"/>
-	<item name="icy bones" id="15791"/>
+	<item fromid="15786" toid="15789" name="bones"/>
+	<item fromid="15790" toid="15791" name="icy bones"/>
 	<item id="15792" article="a" name="crystal bolt">
 		<attribute key="weight" value="80"/>
 		<attribute key="slottype" value="ammo"/>
@@ -25563,27 +24916,15 @@
 	</item>
 	<item id="15794" article="a" name="fresh mushroom beer">
 		<attribute key="weight" value="200"/>
-		<attribute key="decayto" value="18306"/>
+		<attribute key="decayto" value="15795"/>
 		<attribute key="duration" value="20"/>
 	</item>
 	<item id="15795" article="a" name="stale mushroom beer">
 		<attribute key="weight" value="200"/>
 	</item>
 	<item id="15796" article="a" name="damaged crystal"/>
-	<item article="a" name="large crystal" id="15797">
-		<attribute key="decayto" value="18307"/>
-		<attribute key="duration" value="60"/>
-	</item>
-	<item article="a" name="large crystal" id="15798">
-		<attribute key="decayto" value="18307"/>
-		<attribute key="duration" value="60"/>
-	</item>
-	<item article="a" name="large crystal" id="15799">
-		<attribute key="decayto" value="18307"/>
-		<attribute key="duration" value="60"/>
-	</item>
-	<item article="a" name="large crystal" id="15800">
-		<attribute key="decayto" value="18307"/>
+	<item fromid="15797" toid="15800" article="a" name="large crystal">
+		<attribute key="decayto" value="15796"/>
 		<attribute key="duration" value="60"/>
 	</item>
 	<item id="15801" article="a" name="lonely crystal">
@@ -25592,33 +24933,12 @@
 	<item id="15802" article="a" name="gnomish crystal package">
 		<attribute key="weight" value="130"/>
 	</item>
-	<item article="a" name="lonely crystal" id="15803">
+	<item fromid="15803" toid="15808" article="a" name="lonely crystal">
 		<attribute key="weight" value="100"/>
 	</item>
-	<item article="a" name="lonely crystal" id="15804">
-		<attribute key="weight" value="100"/>
-	</item>
-	<item article="a" name="lonely crystal" id="15805">
-		<attribute key="weight" value="100"/>
-	</item>
-	<item article="a" name="lonely crystal" id="15806">
-		<attribute key="weight" value="100"/>
-	</item>
-	<item article="a" name="lonely crystal" id="15807">
-		<attribute key="weight" value="100"/>
-	</item>
-	<item article="a" name="lonely crystal" id="15808">
-		<attribute key="weight" value="100"/>
-	</item>
-	<item article="a" name="large crystal" id="15809"/>
-	<item article="a" name="large crystal" id="15810"/>
-	<item article="a" name="large crystal" id="15811"/>
-	<item article="a" name="large crystal" id="15812"/>
-	<item article="a" name="large crystal" id="15813"/>
-	<item article="a" name="large crystal" id="15814"/>
-	<item article="a" name="large crystal" id="15815"/>
+	<item fromid="15809" toid="15815" article="a" name="large crystal"/>
 	<item id="15816" article="a" name="puffball mushroom">
-		<attribute key="decayto" value="18220"/>
+		<attribute key="decayto" value="15704"/>
 		<attribute key="duration" value="120"/>
 	</item>
 	<item id="15817" article="a" name="gnomish spore gatherer">
@@ -25643,22 +24963,22 @@
 	</item>
 	<item id="15822" article="a" name="strange stone">
 		<attribute key="description" value="As long as it is immersed that deep you won't be able to get a whetstone."/>
-		<attribute key="decayto" value="18334"/>
+		<attribute key="decayto" value="15823"/>
 		<attribute key="duration" value="25"/>
 	</item>
 	<item id="15823" article="a" name="strange stone">
 		<attribute key="description" value="As long as it is immersed that deep you won't be able to get a whetstone."/>
-		<attribute key="decayto" value="18335"/>
+		<attribute key="decayto" value="15824"/>
 		<attribute key="duration" value="25"/>
 	</item>
 	<item id="15824" article="a" name="strange stone">
 		<attribute key="description" value="As long as it is immersed that deep you won't be able to get a whetstone."/>
-		<attribute key="decayto" value="18336"/>
+		<attribute key="decayto" value="15825"/>
 		<attribute key="duration" value="25"/>
 	</item>
 	<item id="15825" article="a" name="strange stone">
 		<attribute key="description" value="With some luck you might be able to pluck a grindstone from the formation."/>
-		<attribute key="decayto" value="18333"/>
+		<attribute key="decayto" value="15822"/>
 		<attribute key="duration" value="17"/>
 	</item>
 	<item id="15826" article="a" name="whetstone">
@@ -25676,11 +24996,11 @@
 	</item>
 	<item id="15829" name="mold floor"/>
 	<item id="15830" name="some truffels">
-		<attribute key="decayto" value="18340"/>
+		<attribute key="decayto" value="15829"/>
 		<attribute key="duration" value="12"/>
 	</item>
 	<item id="15831" article="a" name="crystal cannon">
-		<attribute key="decayto" value="18225"/>
+		<attribute key="decayto" value="15709"/>
 		<attribute key="duration" value="3"/>
 	</item>
 	<item id="15832" article="a" name="bell">
@@ -25692,90 +25012,76 @@
 		<attribute key="decayto" value="0"/>
 		<attribute key="duration" value="3600"/>
 	</item>
-	<item name="scattered crystals" id="15846"/>
-	<item name="scattered crystals" id="15847"/>
-	<item name="scattered crystals" id="15848"/>
-	<item name="scattered crystals" id="15849"/>
-	<item name="scattered crystals" id="15850"/>
-	<item name="scattered crystals" id="15851"/>
-	<item name="scattered crystals" id="15852"/>
-	<item name="scattered crystals" id="15853"/>
-	<item name="scattered crystals" id="15854"/>
-	<item name="scattered crystals" id="15855"/>
-	<item name="scattered crystals" id="15856"/>
-	<item name="scattered crystals" id="15857"/>
-	<item name="scattered crystals" id="15858"/>
-	<item name="scattered crystals" id="15859"/>
-	<item name="scattered crystals" id="15860"/>
-	<item name="scattered crystals" id="15861"/>
-	<item name="scattered crystals" id="15862"/>
+	<item fromid="15834" toid="15845" article="a" name="ice stone floor">
+	<item fromid="15846" toid="15862" name="scattered crystals"/>
+	<item id="15863" name="RESERVED SPRITE"/>
 	<item id="15864" article="a" name="dead stone devourer">
-		<attribute key="containersize" value="25"/>
-		<attribute key="decayto" value="18375"/>
+		<attribute key="containersize" value="20"/>
+		<attribute key="decayto" value="15865"/>
 		<attribute key="duration" value="10"/>
 		<attribute key="corpsetype" value="undead"/>
 	</item>
 	<item id="15865" article="a" name="dead stone devourer">
-		<attribute key="containersize" value="25"/>
-		<attribute key="decayto" value="18376"/>
+		<attribute key="containersize" value="20"/>
+		<attribute key="decayto" value="15866"/>
 		<attribute key="duration" value="300"/>
 		<attribute key="corpsetype" value="undead"/>
 	</item>
 	<item id="15866" article="a" name="dead stone devourer">
-		<attribute key="containersize" value="25"/>
-		<attribute key="decayto" value="18377"/>
+		<attribute key="containersize" value="10"/>
+		<attribute key="decayto" value="15867"/>
 		<attribute key="duration" value="300"/>
 		<attribute key="corpsetype" value="undead"/>
 	</item>
 	<item id="15867" article="a" name="dead stone devourer">
 		<attribute key="decayto" value="0"/>
-		<attribute key="duration" value="300"/>
+		<attribute key="duration" value="60"/>
 		<attribute key="corpsetype" value="undead"/>
 	</item>
 	<item id="15868" article="a" name="dead armadile">
 		<attribute key="containersize" value="50"/>
-		<attribute key="decayto" value="18379"/>
+		<attribute key="decayto" value="15869"/>
 		<attribute key="duration" value="10"/>
 		<attribute key="corpsetype" value="undead"/>
 	</item>
 	<item id="15869" article="a" name="dead armadile">
 		<attribute key="containersize" value="50"/>
-		<attribute key="decayto" value="18380"/>
+		<attribute key="decayto" value="15870"/>
 		<attribute key="duration" value="300"/>
 		<attribute key="corpsetype" value="undead"/>
 	</item>
 	<item id="15870" article="a" name="dead armadile">
-		<attribute key="containersize" value="50"/>
-		<attribute key="decayto" value="18381"/>
+		<attribute key="containersize" value="25"/>
+		<attribute key="decayto" value="15871"/>
 		<attribute key="duration" value="300"/>
 		<attribute key="corpsetype" value="undead"/>
 	</item>
 	<item id="15871" article="a" name="dead armadile">
 		<attribute key="decayto" value="0"/>
-		<attribute key="duration" value="300"/>
+		<attribute key="duration" value="60"/>
 		<attribute key="corpsetype" value="undead"/>
 	</item>
 	<item id="15872" article="a" name="dead humongous fungus">
 		<attribute key="containersize" value="50"/>
-		<attribute key="decayto" value="18383"/>
+		<attribute key="decayto" value="15873"/>
 		<attribute key="duration" value="10"/>
 		<attribute key="corpsetype" value="undead"/>
 	</item>
 	<item id="15873" article="a" name="dead humongous fungus">
 		<attribute key="containersize" value="50"/>
-		<attribute key="decayto" value="17219"/>
+		<attribute key="decayto" value="15874"/>
 		<attribute key="duration" value="300"/>
 		<attribute key="corpsetype" value="undead"/>
 	</item>
 	<item id="15874" article="a" name="dead humongous fungus">
-		<attribute key="containersize" value="50"/>
-		<attribute key="decayto" value="17220"/>
+		<attribute key="containersize" value="25"/>
+		<attribute key="decayto" value="15875"/>
 		<attribute key="duration" value="300"/>
 		<attribute key="corpsetype" value="undead"/>
 	</item>
 	<item id="15875" article="a" name="dead humongous fungus">
 		<attribute key="decayto" value="0"/>
-		<attribute key="duration" value="300"/>
+		<attribute key="duration" value="60"/>
 		<attribute key="corpsetype" value="undead"/>
 	</item>
 	<item article="a" name="stone" id="15876"/>
