@@ -25084,18 +25084,8 @@
 		<attribute key="duration" value="60"/>
 		<attribute key="corpsetype" value="undead"/>
 	</item>
-	<item article="a" name="stone" id="15876"/>
-	<item article="a" name="stone" id="15877"/>
-	<item article="a" name="stone" id="15878"/>
-	<item article="a" name="stone" id="15879"/>
-	<item article="a" name="stone" id="15880"/>
-	<item article="a" name="stone" id="15881"/>
-	<item article="a" name="stone" id="15882"/>
-	<item article="a" name="stone" id="15883"/>
-	<item article="a" name="stone" id="15884"/>
-	<item article="a" name="stone" id="15885"/>
-	<item article="a" name="stone" id="15886"/>
-	<item article="a" name="stone" id="15887"/>
+	<item fromid="15876" toid="15887" article="a" name="stone"/>
+	<item fromid="15888" toid="15889" name="RESERVED SPRITE"/>
 	<item id="15890" article="a" name="closed door">
 		<attribute key="type" value="door"/>
 		<attribute key="blockprojectile" value="1"/>
@@ -25111,169 +25101,106 @@
 		<attribute key="type" value="door"/>
 	</item>
 	<item id="15894" article="a" name="strange idol"/>
-	<item article="a" name="broken idol" id="15895"/>
-	<item article="a" name="broken idol" id="15896"/>
-	<item id="15899" article="a" name="strange pedestal"/>
+	<item fromid="15895" toid="15896" article="a" name="broken idol"/>
+	<item id="15897" article="a" name="strange idol"/>
+	<item fromid="15898" toid="15905" article="a" name="strange pedestal"/>
 	<item id="15906" article="a" name="dead weeper">
 		<attribute key="containersize" value="25"/>
-		<attribute key="decayto" value="17252"/>
+		<attribute key="decayto" value="15907"/>
 		<attribute key="duration" value="10"/>
 		<attribute key="corpsetype" value="fire"/>
 	</item>
 	<item id="15907" article="a" name="dead weeper">
 		<attribute key="containersize" value="25"/>
-		<attribute key="decayto" value="17253"/>
+		<attribute key="decayto" value="15908"/>
 		<attribute key="duration" value="300"/>
 		<attribute key="corpsetype" value="fire"/>
 	</item>
 	<item id="15908" article="a" name="dead weeper">
-		<attribute key="containersize" value="25"/>
-		<attribute key="decayto" value="17254"/>
+		<attribute key="containersize" value="10"/>
+		<attribute key="decayto" value="15909"/>
 		<attribute key="duration" value="300"/>
 		<attribute key="corpsetype" value="fire"/>
 	</item>
 	<item id="15909" article="a" name="dead weeper">
 		<attribute key="decayto" value="0"/>
-		<attribute key="duration" value="300"/>
+		<attribute key="duration" value="60"/>
 		<attribute key="corpsetype" value="fire"/>
 	</item>
 	<item id="15910" article="a" name="dead orewalker">
 		<attribute key="containersize" value="50"/>
-		<attribute key="decayto" value="17256"/>
+		<attribute key="decayto" value="15911"/>
 		<attribute key="duration" value="10"/>
 		<attribute key="corpsetype" value="undead"/>
 	</item>
 	<item id="15911" article="a" name="dead orewalker">
 		<attribute key="containersize" value="50"/>
-		<attribute key="decayto" value="17257"/>
-		<attribute key="duration" value="900"/>
+		<attribute key="decayto" value="15912"/>
+		<attribute key="duration" value="300"/>
 		<attribute key="corpsetype" value="undead"/>
 	</item>
 	<item id="15912" article="a" name="dead orewalker">
-		<attribute key="containersize" value="50"/>
-		<attribute key="decayto" value="17258"/>
+		<attribute key="containersize" value="25"/>
+		<attribute key="decayto" value="15913"/>
 		<attribute key="duration" value="300"/>
 		<attribute key="corpsetype" value="undead"/>
 	</item>
 	<item id="15913" article="a" name="dead orewalker">
 		<attribute key="decayto" value="0"/>
-		<attribute key="duration" value="300"/>
+		<attribute key="duration" value="60"/>
 		<attribute key="corpsetype" value="undead"/>
 	</item>
-	<item id="15914" article="a" name="stone wall"/>
+	<item fromid="15914" toid="15956" article="a" name="stone wall"/>
+	<item fromid="15957" toid="15986" name="RESERVED SPRITE"/>
 	<item id="15987" article="a" name="dead lava golem">
 		<attribute key="containersize" value="25"/>
-		<attribute key="decayto" value="17333"/>
+		<attribute key="decayto" value="15988"/>
 		<attribute key="duration" value="10"/>
 		<attribute key="corpsetype" value="fire"/>
 	</item>
 	<item id="15988" article="a" name="dead lava golem">
 		<attribute key="containersize" value="25"/>
-		<attribute key="decayto" value="17334"/>
+		<attribute key="decayto" value="15989"/>
 		<attribute key="duration" value="300"/>
 		<attribute key="corpsetype" value="fire"/>
 	</item>
 	<item id="15989" article="a" name="dead lava golem">
-		<attribute key="containersize" value="25"/>
-		<attribute key="decayto" value="17335"/>
+		<attribute key="containersize" value="10"/>
+		<attribute key="decayto" value="15990"/>
 		<attribute key="duration" value="300"/>
 		<attribute key="corpsetype" value="fire"/>
 	</item>
 	<item id="15990" article="a" name="dead lava golem">
 		<attribute key="decayto" value="0"/>
-		<attribute key="duration" value="300"/>
+		<attribute key="duration" value="60"/>
 		<attribute key="corpsetype" value="fire"/>
 	</item>
 	<item id="15991" article="a" name="dead magma crawler">
 		<attribute key="containersize" value="50"/>
-		<attribute key="decayto" value="17337"/>
+		<attribute key="decayto" value="15992"/>
 		<attribute key="duration" value="10"/>
 		<attribute key="corpsetype" value="fire"/>
 	</item>
 	<item id="15992" article="a" name="dead magma crawler">
 		<attribute key="containersize" value="50"/>
-		<attribute key="decayto" value="17338"/>
+		<attribute key="decayto" value="15993"/>
 		<attribute key="duration" value="300"/>
 		<attribute key="corpsetype" value="fire"/>
 	</item>
 	<item id="15993" article="a" name="dead magma crawler">
-		<attribute key="containersize" value="50"/>
-		<attribute key="decayto" value="17339"/>
+		<attribute key="containersize" value="25"/>
+		<attribute key="decayto" value="15994"/>
 		<attribute key="duration" value="300"/>
 		<attribute key="corpsetype" value="fire"/>
 	</item>
 	<item id="15994" article="a" name="dead magma crawler">
 		<attribute key="decayto" value="0"/>
-		<attribute key="duration" value="300"/>
+		<attribute key="duration" value="60"/>
 		<attribute key="corpsetype" value="fire"/>
 	</item>
-	<item article="a" name="window" id="15995"/>
-	<item article="a" name="window" id="15996"/>
-	<item article="a" name="window" id="15997"/>
-	<item article="a" name="window" id="15998"/>
-	<item article="a" name="window" id="15999"/>
-	<item article="a" name="window" id="16000"/>
-	<item article="a" name="window" id="16001"/>
-	<item article="a" name="window" id="16002"/>
-	<item article="a" name="window" id="16003"/>
-	<item article="a" name="window" id="16004"/>
-	<item article="a" name="window" id="16005"/>
-	<item article="a" name="window" id="16006"/>
-	<item article="a" name="stone wall" id="16008"/>
-	<item article="a" name="stone wall" id="16009"/>
-	<item article="a" name="stone wall" id="16010"/>
-	<item article="a" name="stone wall" id="16013"/>
-	<item article="a" name="stone wall" id="16015"/>
-	<item article="a" name="stone wall" id="16016"/>
-	<item article="a" name="stone wall" id="16017"/>
-	<item article="a" name="stone wall" id="16018"/>
-	<item article="a" name="stone wall" id="16018"/>
-	<item article="a" name="stone wall" id="16019"/>
-	<item article="a" name="stone wall" id="16019"/>
-	<item article="a" name="stone wall" id="16020"/>
-	<item article="a" name="stone wall" id="16021"/>
-	<item article="a" name="stone wall" id="16021"/>
-	<item article="a" name="stone wall" id="16022"/>
-	<item article="a" name="stone wall" id="16023"/>
-	<item article="a" name="stone wall" id="16023"/>
-	<item article="a" name="stone wall" id="16024"/>
-	<item article="a" name="stone wall" id="16024"/>
-	<item article="a" name="stone wall" id="16025"/>
-	<item article="a" name="stone wall" id="16025"/>
-	<item article="a" name="stone wall" id="16026"/>
-	<item article="a" name="stone wall" id="16027"/>
-	<item article="a" name="stone wall" id="16028"/>
-	<item article="a" name="stone wall" id="16029"/>
-	<item article="a" name="stone wall" id="16030"/>
-	<item article="a" name="stone wall" id="16031"/>
-	<item article="a" name="stone wall" id="16032"/>
-	<item article="a" name="stone wall" id="16033"/>
-	<item article="a" name="stone wall" id="16033"/>
-	<item article="a" name="stone wall" id="16034"/>
-	<item article="a" name="stone wall" id="16034"/>
-	<item article="a" name="stone wall" id="16035"/>
-	<item article="a" name="stone wall" id="16036"/>
-	<item article="a" name="stone wall" id="16037"/>
-	<item article="a" name="stone wall" id="16042"/>
-	<item article="a" name="stone wall" id="16043"/>
-	<item article="a" name="stone wall" id="16044"/>
-	<item article="a" name="stone wall" id="16045"/>
-	<item article="a" name="stone wall" id="16046"/>
-	<item article="a" name="stone wall" id="16047"/>
-	<item article="a" name="stone wall" id="16048"/>
-	<item article="a" name="stone wall" id="16049"/>
-	<item article="a" name="window" id="16050"/>
-	<item article="a" name="window" id="16051"/>
-	<item article="a" name="window" id="16052"/>
-	<item article="a" name="window" id="16053"/>
-	<item article="a" name="window" id="16054"/>
-	<item article="a" name="window" id="16055"/>
-	<item article="a" name="window" id="16056"/>
-	<item article="a" name="window" id="16057"/>
-	<item article="a" name="window" id="16058"/>
-	<item article="a" name="window" id="16059"/>
-	<item article="a" name="window" id="16060"/>
-	<item article="a" name="window" id="16061"/>
+	<item fromid="15995" toid="16006" article="a" name="window"/>
+	<item fromid="16008" toid="16049" article="a" name="stone wall"/>
+	<item fromid="16050" toid="16061" article="a" name="window"/>
 	<item id="16062" article="a" name="dead enslaved dwarf">
 		<attribute key="containersize" value="25"/>
 		<attribute key="decayto" value="17408"/>
