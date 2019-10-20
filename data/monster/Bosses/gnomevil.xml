@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Gnomevil" nameDescription="Gnomevil" race="blood" experience="45000" speed="470">
 	<health now="250000" max="250000"/>
-	<look type="504" corpse="18443"/>
+	<look type="504" corpse="16149"/>
 	<targetchange interval="5000" chance="8"/>
 	<flags>
 		<flag preyable="0"/>
@@ -52,13 +52,13 @@
 		<voice sentence="I've seen the light! And it was all engulfing fire!"/>
 	</voices>
 	<loot>
-		<item id="18451" chance="7030"/><!-- crystalline axe -->
-		<item id="18453" chance="9120"/><!-- crystal crossbow -->
-		<item id="18495" chance="99150"/><!-- gnomevil´s hat -->
-		<item id="18465" chance="6690"/><!-- shiny blade -->
-		<item id="18454" chance="8400"/><!-- mycological bow -->
-		<item id="18452" chance="7120"/><!-- mycological mace -->
-		<item id="18450" chance="14100"/><!-- crystalline sword -->
-		<item id="18449" chance="3710"/><!-- decorative ribbon -->
+		<item name="gnomevil´s hat" chance="100000"/>
+		<item name="crystalline sword" chance="12470"/>
+		<item name="mycological bow" chance="11270"/>
+		<item name="crystal crossbow" chance="9860"/>
+		<item name="shiny blade" chance="9660"/>
+		<item name="mycological mace" chance="9050"/>
+		<item name="crystalline axe" chance="8650"/>
+		<item name="decorative ribbon" chance="2010"/>
 	</loot>
 </monster>
