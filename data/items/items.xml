@@ -2348,8 +2348,8 @@
 		<attribute key="weight" value="250"/>
 	</item>
 	<item id="943" name="holy soil">
-		<attribute key="weight" value="250" />
-		<attribute key="showcount" value="0" />
+		<attribute key="weight" value="250"/>
+		<attribute key="showcount" value="0"/>
 	</item>
 	<item id="944" name="iced soil">
 		<attribute key="weight" value="250"/>
@@ -10268,8 +10268,8 @@
 	</item>
 	<item id="4851" article="a" name="smashed stone head">
 		<attribute key="description" value="It seems to repair itself rapidly."/>
-		<attribute key="decayTo" value="4850" />
-		<attribute key="duration" value="30" />
+		<attribute key="decayTo" value="4850"/>
+		<attribute key="duration" value="30"/>
 	</item>
 	<item id="4852" article="an" name="ectoplasm container">
 		<attribute key="description" value="It is empty."/>
@@ -10367,7 +10367,7 @@
 	<item id="4994" name="sharp icicles" article="some"/>
 	<item id="4995" name="canopic jar">
 		<attribute key="description" value="You feel an eerie presence."/>
-		<attribute key="destroyTo" value="4997" />
+		<attribute key="destroyTo" value="4997"/>
 	</item>
 	<item id="4996" article="the" name="remains of a canopic jar">
 		<attribute key="decayto" value="4995"/>
@@ -25984,7 +25984,7 @@
 		<attribute key="description" value="It is a voucher for the second addon of the crystal warlord outfit."/>
 	</item>
 	<item fromid="16257" toid="16261" name="RESERVED SPRITE"/>
-	<item fromid="16262" toid="16263" article="a" name="dragon eye" >
+	<item fromid="16262" toid="16263" article="a" name="dragon eye">
 		<attribute key="weight" value="2800"/>
 		<attribute key="description" value="It belonged to the first dragon to roam the world and was adorned with Tibia-Market's purest gold."/>
 	</item>
@@ -25999,28 +25999,7 @@
 		<attribute key="showduration" value="1"/>
 		<attribute key="showattributes" value="1"/>
 	</item>
-	<item name="stairs" id="16265">
-		<attribute key="floorchange" value="down"/>
-	</item>
-	<item name="stairs" id="16266">
-		<attribute key="floorchange" value="down"/>
-	</item>
-	<item name="stairs" id="16267">
-		<attribute key="floorchange" value="down"/>
-	</item>
-	<item name="stairs" id="16268">
-		<attribute key="floorchange" value="down"/>
-	</item>
-	<item name="stairs" id="16269">
-		<attribute key="floorchange" value="down"/>
-	</item>
-	<item name="stairs" id="16270">
-		<attribute key="floorchange" value="down"/>
-	</item>
-	<item name="stairs" id="16271">
-		<attribute key="floorchange" value="down"/>
-	</item>
-	<item name="stairs" id="16272">
+	<item fromid="16265" toid="16272" name="stairs" >
 		<attribute key="floorchange" value="down"/>
 	</item>
 	<item fromid="16273" toid="16274" name="RESERVED SPRITE"/>
@@ -26036,28 +26015,28 @@
 	<item id="16279" article="a" name="crystal rubbish">
 		<attribute key="weight" value="980"/>
 	</item>
-	<item fromid="16280" toid="16299" name="muddy floor" />
-	<item fromid="16300" toid="16310" name="swamp" >
+	<item fromid="16280" toid="16299" name="muddy floor"/>
+	<item fromid="16300" toid="16310" name="swamp">
 		<attribute key="type" value="trashholder"/>
 		<attribute key="effect" value="greenbubble"/>
 		<attribute key="allowpickupable" value="1"/>
 	</item>
-	<item fromid="16311" toid="16332" article="a" name="bog wart" />
-	<item fromid="16333" toid="16376" article="a" name="muddy stone wall" />
-	<item fromid="16377" toid="16378" article="a" name="whispering willow" />
-	<item fromid="16379" toid="16380" article="a" name="swamp gnarl" />
-	<item fromid="16381" toid="16382" article="a" name="choking swamp gnarl" />
+	<item fromid="16311" toid="16332" article="a" name="bog wart"/>
+	<item fromid="16333" toid="16376" article="a" name="muddy stone wall"/>
+	<item fromid="16377" toid="16378" article="a" name="whispering willow"/>
+	<item fromid="16379" toid="16380" article="a" name="swamp gnarl"/>
+	<item fromid="16381" toid="16382" article="a" name="choking swamp gnarl"/>
 	<item id="16383" article="a" name="mire bough"/>
 	<item id="16384" article="a" name="choking swamp gnarl"/>
-	<item fromid="16385" toid="16386" article="a" name="swamp claw" />
-	<item fromid="16387" toid="16390" article="a" name="giant mud lump" />
-	<item fromid="16391" toid="16394" article="a" name="big mud lump" />
+	<item fromid="16385" toid="16386" article="a" name="swamp claw"/>
+	<item fromid="16387" toid="16390" article="a" name="giant mud lump"/>
+	<item fromid="16391" toid="16394" article="a" name="big mud lump"/>
 	<item id="16395" article="a" name="mud clot"/>
 	<item fromid="16396" toid="16398" name="RESERVED SPRITE"/>
 	<item id="16399" article="a" name="mud clot"/>
 	<item fromid="16400" toid="16401" name="RESERVED SPRITE"/>
-	<item fromid="16402" toid="16403" article="a" name="mud ball" />
-	<item fromid="16404" toid="16406" name="swamp mud debris" />
+	<item fromid="16402" toid="16403" article="a" name="mud ball"/>
+	<item fromid="16404" toid="16406" name="swamp mud debris"/>
 	<item fromid="16407" toid="16410" article="a" name="mud nugget"/>
 	<item id="16411" name="stone stings"/>
 	<item fromid="16412" toid="16415" name="stone lichen"/>
@@ -26076,13 +26055,13 @@
 	<item id="16586" name="swamp lichen"/>
 	<item id="16587" name="quagmire moss"/>
 	<item fromid="16588" toid="16594" name="nails"/>
-	<item fromid="16595" toid="16600" name="wooden planks" />
+	<item fromid="16595" toid="16600" name="wooden planks"/>
 	<item id="16601" article="a" name="wooden strut"/>
-	<item fromid="16608" toid="16615" name="wooden planks" />
-	<item fromid="16616" toid="16621" name="quagmire moss" />
-	<item fromid="16622" toid="16637" article="a" name="grimy wooden plank" />
-	<item fromid="16638" toid="16664" article="a" name="muddy mountain" />
-	<item fromid="16665" toid="16678" article="a" name="swamp clay mountain" />
+	<item fromid="16608" toid="16615" name="wooden planks"/>
+	<item fromid="16616" toid="16621" name="quagmire moss"/>
+	<item fromid="16622" toid="16637" article="a" name="grimy wooden plank"/>
+	<item fromid="16638" toid="16664" article="a" name="muddy mountain"/>
+	<item fromid="16665" toid="16678" article="a" name="swamp clay mountain"/>
 	<item id="16679" name="RESERVED SPRITE"/>
 	<item id="16680" article="a" name="ramp">
 		<attribute key="floorchange" value="east"/>
@@ -26123,8 +26102,8 @@
 	<item fromid="16785" toid="16792" article="a" name="ramp">
 		<attribute key="floorchange" value="down"/>
 	</item>
-	<item fromid="16793" toid="16826" article="a" name="swamp clay mountain" />
-	<item fromid="16827" toid="16861" article="a" name="muddy mountain" />
+	<item fromid="16793" toid="16826" article="a" name="swamp clay mountain"/>
+	<item fromid="16827" toid="16861" article="a" name="muddy mountain"/>
 	<item id="16862" name="RESERVED SPRITE"/>
 	<item id="16863" article="a" name="muddy mountain"/>
 	<item id="16864" name="RESERVED SPRITE"/>
@@ -26133,11 +26112,11 @@
 	<item id="16867" name="RESERVED SPRITE"/>
 	<item id="16868" article="a" name="swamp clay mountain"/>
 	<item id="16869" article="a" name="muddy mountain"/>
-	<item fromid="16870" toid="16871" article="a" name="swamp clay mountain" />
+	<item fromid="16870" toid="16871" article="a" name="swamp clay mountain"/>
 	<item fromid="16872" toid="17051" name="RESERVED SPRITE"/>
-	<item fromid="17052" toid="17073" article="a" name="brown stone wall" />
-	<item fromid="17074" toid="17095" article="an" name="ornate wall" />
-	<item fromid="17096" toid="17108" article="a" name="stone wall" />
+	<item fromid="17052" toid="17073" article="a" name="brown stone wall"/>
+	<item fromid="17074" toid="17095" article="an" name="ornate wall"/>
+	<item fromid="17096" toid="17108" article="a" name="stone wall"/>
 	<item id="17109" article="a" name="mean knight sword">
 		<attribute key="defense" value="7">
 		<attribute key="weight" value="2000"/>
@@ -26164,8 +26143,8 @@
 		<attribute key="weight" value="210"/>
 	</item>
 	<item id="17114" name="RESERVED SPRITE"/>
-	<item fromid="17115" toid="17140" article="a" name="stone wall" />
-	<item fromid="17141" toid="17149" article="a" name="window" />
+	<item fromid="17115" toid="17140" article="a" name="stone wall"/>
+	<item fromid="17141" toid="17149" article="a" name="window"/>
 	<item id="17150" name="RESERVED SPRITE"/>
 	<item id="17151" name="freshly cut venorean spice">
 		<attribute key="description" value="It has just been cut."/>
@@ -26178,22 +26157,22 @@
 		<attribute key="decayto" value="17153"/>
 	</item>
 	<item id="17153" name="venorean spice"/>
-	<item fromid="17154" toid="17166" article="a" name="window" />
-	<item fromid="17167" toid="17170" article="a" name="stone wall" /> <!-- unconfirmed name -->
-	<item fromid="17171" toid="17182" article="a" name="stone archway" />
-	<item fromid="17183" toid="17188" name="stone pillars" />
-	<item fromid="17189" toid="17194" article="a" name="stone pillar" />
-	<item fromid="17195" toid="17200" article="a" name="stone wall" />
-	<item fromid="17201" toid="17202" article="a" name="brick wall" />
-	<item fromid="17203" toid="17204" article="a" name="muddy brick wall" />
-	<item fromid="17205" toid="17206" article="a" name="brick wall" />
-	<item fromid="17207" toid="17208" article="a" name="muddy brick wall" />
-	<item fromid="17209" toid="17211" article="a" name="brick wall" />
+	<item fromid="17154" toid="17166" article="a" name="window"/>
+	<item fromid="17167" toid="17170" article="a" name="stone wall"/> <!-- unconfirmed name -->
+	<item fromid="17171" toid="17182" article="a" name="stone archway"/>
+	<item fromid="17183" toid="17188" name="stone pillars"/>
+	<item fromid="17189" toid="17194" article="a" name="stone pillar"/>
+	<item fromid="17195" toid="17200" article="a" name="stone wall"/>
+	<item fromid="17201" toid="17202" article="a" name="brick wall"/>
+	<item fromid="17203" toid="17204" article="a" name="muddy brick wall"/>
+	<item fromid="17205" toid="17206" article="a" name="brick wall"/>
+	<item fromid="17207" toid="17208" article="a" name="muddy brick wall"/>
+	<item fromid="17209" toid="17211" article="a" name="brick wall"/>
 	<item id="17212" article="a" name="muddy brick wall"/>
-	<item fromid="17213" toid="17216" article="a" name="brick wall" />
-	<item fromid="17217" toid="17221" article="a" name="muddy brick wall" />
+	<item fromid="17213" toid="17216" article="a" name="brick wall"/>
+	<item fromid="17217" toid="17221" article="a" name="muddy brick wall"/>
 	<item id="17222" article="a" name="brick wall"/>
-	<item fromid="17223" toid="17224" article="a" name="muddy brick wall" />
+	<item fromid="17223" toid="17224" article="a" name="muddy brick wall"/>
 	<item fromid="17226" toid="17227" article="a" name="mud pile"/>
 	<item id="17228" article="a" name="wooden treadmill"/>
 	<item id="17229" article="a" name="wooden cabin"/>
@@ -26201,8 +26180,8 @@
 		<attribute key="floorchange" value="west"/>
 	</item>
 	<item id="17231" article="a" name="wooden scaffolding"/>
-	<item fromid="17232" toid="17234" article="a" name="small wooden fence" />
-	<item fromid="17235" toid="17237" article="a" name="wooden ramp" />
+	<item fromid="17232" toid="17234" article="a" name="small wooden fence"/>
+	<item fromid="17235" toid="17237" article="a" name="wooden ramp"/>
 	<item id="17238" name="muddy floor">
 		<attribute key="description" value="There is a hole in the ceiling."/>
 	</item>
@@ -26210,24 +26189,24 @@
 		<attribute key="floorchange" value="down"/>
 	</item>
 	<item fromid="17240" toid="17259" name="RESERVED SPRITE"/>
-	<item fromid="17260" toid="17271" article="a" name="muddy mountain" />
-	<item fromid="17272" toid="17279" article="a" name="unknown item" />
-	<item fromid="17280" toid="17299" article="a" name="swamp clay mountain" />
-	<item fromid="17300" toid="17309" name="unknown item" />
-	<item fromid="17310" toid="17314" name="unknown item" />
+	<item fromid="17260" toid="17271" article="a" name="muddy mountain"/>
+	<item fromid="17272" toid="17279" article="a" name="unknown item"/>
+	<item fromid="17280" toid="17299" article="a" name="swamp clay mountain"/>
+	<item fromid="17300" toid="17309" name="unknown item"/>
+	<item fromid="17310" toid="17314" name="unknown item"/>
 	<item id="17315" article="a" name="muddy mountain"/>
 	<item id="17316" article="a" name="cobbled pavement"/> <!-- unconfirmed name -->
 	<item id="17317" name="RESERVED SPRITE"/>
-	<item fromid="17318" toid="17321" article="a" name="magic door" />
+	<item fromid="17318" toid="17321" article="a" name="magic door"/>
 	<item id="17322" name="RESERVED SPRITE"/>
 	<item fromid="17323" toid="17329" article="a" name="pillar railing"/>
-	<item fromid="17330" toid="17335" article="an" name="ornament" />
-	<item fromid="17336" toid="17338" article="a" name="pencil tower" />
+	<item fromid="17330" toid="17335" article="an" name="ornament"/>
+	<item fromid="17336" toid="17338" article="a" name="pencil tower"/>
 	<item id="17339" article="a" name="copper roof"/>
 	<item id="17340" article="a" name="socket"/>
 	<item fromid="17341" toid="17344" article="a" name="golden statue"/>
 	<item id="17345" name="unknown item"/>
-	<item fromid="17346" toid="17352" article="an" name="ornate tapestry" />
+	<item fromid="17346" toid="17352" article="an" name="ornate tapestry"/>
 	<item id="17353" article="a" name="cabinet">
 		<attribute key="containersize" value="8"/>
 		<attribute key="rotateto" value="17354"/>
@@ -26277,29 +26256,29 @@
 		<attribute key="rotateto" value="17365"/>
 	</item>
 	<item id="17367" article="a" name="kidney table"/>
-	<item fromid="17368" toid="17371" article="a" name="venorean bench" />
+	<item fromid="17368" toid="17371" article="a" name="venorean bench"/>
 	<item id="17372" article="a" name="ficus benjamina"/>
 	<item id="17373" article="an" name="areca palm"/>
-	<item fromid="17374" toid="17376" article="a" name="big venorean table" />
-	<item fromid="17377" toid="17379" article="a" name="counter" />
-	<item fromid="17380" toid="17382" article="a" name="big venorean table" />
+	<item fromid="17374" toid="17376" article="a" name="big venorean table"/>
+	<item fromid="17377" toid="17379" article="a" name="counter"/>
+	<item fromid="17380" toid="17382" article="a" name="big venorean table"/>
 	<item id="17383" article="a" name="counter">
 		<attribute key="type" value="door"/>
 	</item>
-	<item fromid="17384" toid="17385" article="a" name="counter" />
+	<item fromid="17384" toid="17385" article="a" name="counter"/>
 	<item id="17386" article="a" name="counter">
 		<attribute key="type" value="door"/>
 	</item>
-	<item fromid="17387" toid="17393" article="a" name="counter" />
+	<item fromid="17387" toid="17393" article="a" name="counter"/>
 	<item id="17394" name="stairs">
 		<attribute key="floorchange" value="north"/>
 	</item>
 	<item id="17395" name="stairs">
 		<attribute key="floorchange" value="west"/>
 	</item>
-	<item fromid="17396" toid="17404" article="an" name="ornate carpet" />
-	<item fromid="17405" toid="17406" article="a" name="saw" />
-	<item fromid="17407" toid="17408" article="a" name="crane" />
+	<item fromid="17396" toid="17404" article="an" name="ornate carpet"/>
+	<item fromid="17405" toid="17406" article="a" name="saw"/>
+	<item fromid="17407" toid="17408" article="a" name="crane"/>
 	<item fromid="17409" article="a" name="street lamp"/>
 	<item id="17410" toid="17412" article="a" name="street lamp"/>
 	<item fromid="17413" toid="17414" article="a" name="candelabra"/>
@@ -26539,8 +26518,8 @@
 	<item id="17463" article="a" name="damselfly eye">
 		<attribute key="weight" value="150"/>
 	</item>
-	<item fromid="17464" toid="17492" name="cobblestone" />
-	<item fromid="17493" toid="17510" name="plaster" />
+	<item fromid="17464" toid="17492" name="cobblestone"/>
+	<item fromid="17493" toid="17510" name="plaster"/>
 	<item id="17511" article="a" name="tiny healing rune">
 		<attribute key="type" value="rune"/>
 		<attribute key="weight" value="210"/>
