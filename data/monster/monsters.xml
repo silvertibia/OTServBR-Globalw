@@ -847,7 +847,7 @@
 	<monster name="White Pale" file="Bosses/white_pale.xml"/>
 	<monster name="Wrath of the Emperor" file="Bosses/wrath_of_the_emperor.xml"/>
 	<monster name="Xenia" file="Bosses/Xenia.xml"/>
-	<monster name="Yaga The Crone" file="Bosses/Yaga The Crone.xml"/>
+	<monster name="Yaga The Crone" file="Bosses/yaga_the_crone.xml"/>
 	<monster name="Yakchal" file="Bosses/yakchal.xml"/>
 	<monster name="Zanakeph" file="Bosses/zanakeph.xml"/>
 	<monster name="Zavarash" file="Bosses/zavarash.xml"/>
@@ -1017,6 +1017,7 @@
 	<!-- Elves -->
 	<monster name="Elf" file="Elves/elf.xml"/>
 	<monster name="Elf Arcanist" file="Elves/elf_arcanist.xml"/>
+	<monster name="Elf Overseed" file="Elves/elf_overseer.xml"/>
 	<monster name="Elf Scout" file="Elves/elf_scout.xml"/>
 	<monster name="Firestarter" file="Elves/firestarter.xml"/>
 
@@ -1133,7 +1134,8 @@
 	
 	<!-- Humans -->
 	<monster name="Midnight Warrior" file="Humans/midnight_warrior.xml"/>
-
+	<monster name="Bride of Night" file="Humans/bride_of_night.xml"/>
+	
 	<!-- Insects -->
 	<monster name="Ancient Scarab" file="Insects/ancient_scarab.xml"/>
 	<monster name="Blue Butterfly" file="Insects/blue_butterfly.xml"/>
@@ -1290,13 +1292,16 @@
 	<monster name="Hero" file="Outlaws/hero.xml"/>
 	<monster name="Hunter" file="Outlaws/hunter.xml"/>
 	<monster name="Nomad" file="Outlaws/nomad.xml"/>
+	<monster name="Nomad Female" file="Outlaws/nomad_female.xml"/>
+	<monster name="Nomad Blue" file="Outlaws/nomad_blue.xml"/>
 	<monster name="Poacher" file="Outlaws/poacher.xml"/>
 	<monster name="Smuggler" file="Outlaws/smuggler.xml"/>
 	<monster name="Stalker" file="Outlaws/stalker.xml"/>
+	<monster name="Thief" file="Outlaws/thief.xml"/>
 	<monster name="Wild Warrior" file="Outlaws/wild_warrior.xml"/>
 	<monster name="Feverish Citizen" file="Outlaws/feverish_citizen.xml"/>
 	<monster name="Crypt Defiler" file="Outlaws/crypt_defiler.xml"/>
-	<monster name="NomadFemale" file="Outlaws/nomadFemale.xml"/>
+	
 	
 	<!-- Rise of Devovorga -->
 	<monster name="Spawn of Devovorga" file="Rise of Devovorga/spawn of devovorga.xml"/>
@@ -1424,24 +1429,25 @@
 	<monster name="Troll Legionnaire" file="Trolls/troll_legionnaire.xml"/>
 	<monster name="Young Troll" file="Trolls/young_troll.xml"/>
 
-	<!-- Undead_Humanoids -->
-	<monster name="Banshee" file="Undead_Humanoids/banshee.xml"/>
-	<monster name="Blightwalker" file="Undead_Humanoids/blightwalker.xml"/>
-	<monster name="Crypt Shambler" file="Undead_Humanoids/crypt_shambler.xml"/>
-	<monster name="Death Priest" file="Undead_Humanoids/death_priest.xml"/>
-	<monster name="Elder Mummy" file="Undead_Humanoids/elder_mummy.xml"/>
-	<monster name="Ghoul" file="Undead_Humanoids/ghoul.xml"/>
-	<monster name="Grim Reaper" file="Undead_Humanoids/grim_reaper.xml"/>
-	<monster name="Lich" file="Undead_Humanoids/lich.xml"/>
-	<monster name="Mummy" file="Undead_Humanoids/mummy.xml"/>
-	<monster name="Vampire" file="Undead_Humanoids/vampire.xml"/>
-	<monster name="Vampire Bride" file="Undead_Humanoids/vampire_bride.xml"/>
-	<monster name="Vampire Viscount" file="Undead_Humanoids/vampire_viscount.xml"/>
-	<monster name="Vicious Manbat" file="Undead_Humanoids/vicious_manbat.xml"/>
-	<monster name="Zombie" file="Undead_Humanoids/zombie.xml"/>
-	<monster name="Undead Prospector" file="Undead_Humanoids/undead_prospector.xml"/>
-	<monster name="Nightfiend" file="Undead_Humanoids/nightfiend.xml"/>
-	<monster name="Tomb Servant" file="Undead_Humanoids/tomb_servant.xml"/>
+	<!-- Undead Humanoids -->
+	<monster name="Banshee" file="Undead Humanoids/banshee.xml"/>
+	<monster name="Blightwalker" file="Undead Humanoids/blightwalker.xml"/>
+	<monster name="Crypt Shambler" file="Undead Humanoids/crypt_shambler.xml"/>
+	<monster name="Death Priest" file="Undead Humanoids/death_priest.xml"/>
+	<monster name="Elder Mummy" file="Undead Humanoids/elder_mummy.xml"/>
+	<monster name="Ghoul" file="Undead Humanoids/ghoul.xml"/>
+	<monster name="Grim Reaper" file="Undead Humanoids/grim_reaper.xml"/>
+	<monster name="Lich" file="Undead Humanoids/lich.xml"/>
+	<monster name="Mummy" file="Undead Humanoids/mummy.xml"/>
+	<monster name="Vampire" file="Undead Humanoids/vampire.xml"/>
+	<monster name="Vampire Bride" file="Undead Humanoids/vampire_bride.xml"/>
+	<monster name="Vampire Viscount" file="Undead Humanoids/vampire_viscount.xml"/>
+	<monster name="Vicious Manbat" file="Undead Humanoids/vicious_manbat.xml"/>
+	<monster name="Zombie" file="Undead Humanoids/zombie.xml"/>
+	<monster name="Undead Prospector" file="Undead Humanoids/undead_prospector.xml"/>
+	<monster name="Undead Jester" file="Undead Humanoids/undead_jester.xml"/>
+	<monster name="Nightfiend" file="Undead Humanoids/nightfiend.xml"/>
+	<monster name="Tomb Servant" file="Undead Humanoids/tomb_servant.xml"/>
 
 	<!-- Ungulates -->
 	<monster name="Black Sheep" file="Ungulates/black_sheep.xml"/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Yaga The Crone" nameDescription="Yaga The Crone" race="blood" experience="375" speed="240">
 	<health now="620" max="620"/>
-	<look type="54" corpse="20587"/>
+	<look type="54" corpse="18306"/>
 	<targetchange interval="5000" chance="8"/>
 	<flags>
 		<flag preyable="0"/>
@@ -40,8 +40,8 @@
 	</defenses>
 	<elements>
 		<element deathPercent="-5"/>
-		<element earthPercent="1"/>
 		<element physicalPercent="-1"/>
+		<element earthPercent="1"/>
 	</elements>
 	<immunities>
 		<immunity energy="1"/>
@@ -53,16 +53,19 @@
 		<voice sentence="Hexipooh, bewitched are you!"/>
 	</voices>
 	<loot>
-		<item name="cape" chance="66000"/>
+		<item name="cape" chance="66670"/>
+		<item name="cookie" countmin="1" countmax="8" chance="62500"/>
 		<item name="broom" chance="62500"/>
-		<item name="cookie" countmax="8" chance="62500"/>
-		<item name="gold coin" countmax="55" chance="29170"/>
-		<item name="star herb" chance="20833"/>
-		<item name="wolf tooth chain" chance="20833"/>
-		<item name="garlic necklace" chance="8333"/>
+		<item name="gold coin" countmin="1" countmax="69" chance="29170"/>
+		<item name="star herb" chance="20830"/>
+		<item name="wolf tooth chain" chance="20830"/>
+		<item name="garlic necklace" chance="8330"/>
 		<item name="spellbook of mind control" chance="8333"/>
 		<item name="coat" chance="4170"/>
-		<item name="necrotic rod" chance="4170"/>
 		<item name="silver dagger" chance="4170"/>
+		<item name="necrotic rod" chance="4170"/>
+		
+		<!-- unconfirmed chances -->
+		<item name="bag of apple slices" chance="4170"/>
 	</loot>
 </monster>
