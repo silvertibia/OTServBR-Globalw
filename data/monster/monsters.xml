@@ -1001,17 +1001,18 @@
 	<monster name="Dworc Venomsniper" file="Dworcs/dworc_venomsniper.xml"/>
 	<monster name="Dworc Voodoomaster" file="Dworcs/dworc_voodoomaster.xml"/>
 
-	<!-- Event_Creatures -->
-	<monster name="Essence of Darkness" file="Event_Creatures/essence_of_darkness.xml"/>
-	<monster name="Grynch Clan Goblin" file="Event_Creatures/grynch_clan_goblin.xml"/>
-	<monster name="Hacker" file="Event_Creatures/hacker.xml"/>
-	<monster name="Herald of Gloom" file="Event_Creatures/herald_of_gloom.xml"/>
-	<monster name="Midnight Spawn" file="Event_Creatures/midnight_spawn.xml"/>
-	<monster name="Primitive" file="Event_Creatures/primitive.xml"/>
-	<monster name="Shadow Hound" file="Event_Creatures/shadow_hound.xml"/>
-	<monster name="Spectral Scum" file="Event_Creatures/spectral_scum.xml"/>
-	<monster name="The Halloween Hare" file="Event_Creatures/the_halloween_hare.xml"/>
-	<monster name="Undead Minion" file="Event_Creatures/undead_minion.xml"/>
+	<!-- Event Creatures -->
+	<monster name="Doomsday Cultist" file="Event Creatures/doomsday_cultist.xml"/>
+	<monster name="Essence of Darkness" file="Event Creatures/essence_of_darkness.xml"/>
+	<monster name="Grynch Clan Goblin" file="Event Creatures/grynch_clan_goblin.xml"/>
+	<monster name="Hacker" file="Event Creatures/hacker.xml"/>
+	<monster name="Herald of Gloom" file="Event Creatures/herald_of_gloom.xml"/>
+	<monster name="Midnight Spawn" file="Event Creatures/midnight_spawn.xml"/>
+	<monster name="Primitive" file="Event Creatures/primitive.xml"/>
+	<monster name="Shadow Hound" file="Event Creatures/shadow_hound.xml"/>
+	<monster name="Spectral Scum" file="Event Creatures/spectral_scum.xml"/>
+	<monster name="The Halloween Hare" file="Event Creatures/the_halloween_hare.xml"/>
+	<monster name="Undead Minion" file="Event Creatures/undead_minion.xml"/>
 
 	<!-- Elves -->
 	<monster name="Elf" file="Elves/elf.xml"/>
@@ -1025,11 +1026,11 @@
 	<monster name="Massive Energy Elemental" file="Electro-Elementals/massive_energy_elemental.xml"/>
 	<monster name="Overcharged Energy Elemental" file="Electro-Elementals/overcharged_energy_element.xml"/>
 
-	<!-- Elemental_Lords -->
-	<monster name="Earth Overlord" file="Elemental_Lords/earth_overlord.xml"/>
-	<monster name="Energy Overlord" file="Elemental_Lords/energy_overlord.xml"/>
-	<monster name="Fire Overlord" file="Elemental_Lords/fire_overlord.xml"/>
-	<monster name="Ice Overlord" file="Elemental_Lords/ice_overlord.xml"/>
+	<!-- Elemental Lords -->
+	<monster name="Earth Overlord" file="Elemental Lords/earth_overlord.xml"/>
+	<monster name="Energy Overlord" file="Elemental Lords/energy_overlord.xml"/>
+	<monster name="Fire Overlord" file="Elemental Lords/fire_overlord.xml"/>
+	<monster name="Ice Overlord" file="Elemental Lords/ice_overlord.xml"/>
 
 	<!-- Felines -->
 	<monster name="Cat" file="Felines/cat.xml"/>
@@ -1129,6 +1130,9 @@
 	<monster name="Roaring Water Elemental" file="Hydro-Elementals/roaring_water_elemental.xml"/>
 	<monster name="Slick Water Elemental" file="Hydro-Elementals/slick_water_elemental.xml"/>
 	<monster name="Water Elemental" file="Hydro-Elementals/water_elemental.xml"/>
+	
+	<!-- Humans -->
+	<monster name="Midnight Warrior" file="Humans/midnight_warrior.xml"/>
 
 	<!-- Insects -->
 	<monster name="Ancient Scarab" file="Insects/ancient_scarab.xml"/>
@@ -1470,10 +1474,10 @@
 	<monster name="Sun-Marked Goanna" file="Varanidae/Sun-Marked Goanna.xml"/>
 
 	<!-- Voodoo Cultists -->
-	<monster name="Acolyte of the Cult" file="Voodoo_Cultists/acolyte_of_the_cult.xml"/>
-	<monster name="Adept of the Cult" file="Voodoo_Cultists/adept_of_the_cult.xml"/>
-	<monster name="Enlightened of the Cult" file="Voodoo_Cultists/enlightened_of_the_cult.xml"/>
-	<monster name="Novice of the Cult" file="Voodoo_Cultists/novice_of_the_cult.xml"/>
+	<monster name="Acolyte of the Cult" file="Voodoo Cultists/acolyte_of_the_cult.xml"/>
+	<monster name="Adept of the Cult" file="Voodoo Cultists/adept_of_the_cult.xml"/>
+	<monster name="Enlightened of the Cult" file="Voodoo Cultists/enlightened_of_the_cult.xml"/>
+	<monster name="Novice of the Cult" file="Voodoo Cultists/novice_of_the_cult.xml"/>
 
 	<!-- Wild Magics -->
 	<monster name="Wild Fire Magic" file="Wild_Magics/wild_fire_magic.xml"/>

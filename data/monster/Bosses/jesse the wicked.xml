@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Jesse The Wicked" nameDescription="Jesse The Wicked" race="blood" experience="180" speed="220">
 	<health now="280" max="280"/>
-	<look type="134" head="76" body="76" legs="76" feet="115" addons="3" corpse="20434"/>
+	<look type="134" head="76" body="76" legs="76" feet="115" addons="3" corpse="18153"/>
 	<targetchange interval="4000" chance="5"/>
 	<flags>
 		<flag preyable="0"/>
@@ -25,7 +25,7 @@
 		<voice sentence="That banker never saw it coming!"/>
 	</voices>
 	<loot>
-		<item id="2152" countmax="85" chance="100000"/>	<!-- platinum coin -->
-		<item id="14903" chance="100000"/>				<!-- bag with stolen gold -->
+		<item name="platinum coin" countmax="85" chance="100000"/>
+		<item name="bag with stolen gold" chance="100000"/>
 	</loot>
 </monster>
