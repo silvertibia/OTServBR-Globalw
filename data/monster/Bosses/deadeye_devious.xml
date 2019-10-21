@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Deadeye Devious" nameDescription="Deadeye Devious" race="blood" experience="750" speed="300">
 	<health now="1450" max="1450"/>
-	<look type="151" head="115" body="76" legs="35" feet="117" addons="2" corpse="20378"/>
+	<look type="151" head="115" body="76" legs="35" feet="117" addons="2" corpse="18097"/>
 	<targetchange interval="60000" chance="0"/>
 	<flags>
 		<flag preyable="0"/>
@@ -39,15 +39,17 @@
 		<voice sentence="§%§&amp;§! #*$§$!!"/>
 	</voices>
 	<loot>
-		<item id="6102" chance="100000"/>					<!-- deadeye devious' eye patch -->
-		<item id="2148" countmax="140" chance="100000"/>	<!-- gold coin -->
-		<item id="2229" countmax="2" chance="85000"/>		<!-- skull -->
-		<item id="2463" chance="78000"/>					<!-- plate armor -->
-		<item id="2666" countmax="3" chance="42000"/>		<!-- meat -->
-		<item id="2476" chance="28000"/>					<!-- knight armor -->
-		<item id="2379" chance="21000"/>					<!-- dagger -->
-		<item id="2145" chance="14000"/>					<!-- small diamond -->
-		<item id="2387" chance="7000"/>						<!-- double axe -->
-		<item id="5926" chance="7000"/>						<!-- pirate backpack -->
+		<item name="gold coin" countmax="140" chance="100000"/>
+		<item name="deadeye devious' eye patch" chance="100000"/>
+		<item name="plate armor" chance="81250"/>
+		<item id="3114" countmax="2" chance="81250"/><!-- skull -->
+		<item name="meat" countmax="3" chance="43750"/>
+		<item name="dagger" chance="25000"/>
+		<item name="knight armor" chance="25000"/>
+		<item name="small diamond" chance="18750"/>
+		<item name="great health potion" chance="6250"/>
+		<item name="double axe" chance="6250"/>
+		<item name="pirate backpack" chance="6250"/>
+		<item name="very old piece of paper" chance="6250"/>
 	</loot>
 </monster>

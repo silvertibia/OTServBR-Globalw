@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Rukor Zad" nameDescription="Rukor Zad" race="blood" experience="380" speed="215">
 	<health now="380" max="380"/>
-	<look type="152" head="114" body="95" legs="95" feet="95" addons="3" corpse="20578"/>
+	<look type="152" head="114" body="95" legs="95" feet="95" addons="3" corpse="18297"/>
 	<targetchange interval="4000" chance="0"/>
 	<flags>
 		<flag preyable="0"/>
@@ -49,10 +49,11 @@
 		<voice sentence="Haiiii!"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="50" chance="93210"/>	<!-- gold coin -->
-		<item id="2399" countmax="14" chance="9210"/>	<!-- throwing star -->
-		<item id="7366" countmax="7" chance="6200"/>	<!-- viper star -->
-		<item id="2457" chance="4190"/>					<!-- steel helmet -->
-		<item id="2509" chance="1940"/>					<!-- steel shield -->
+		<item id="gold coin" countmax="50" chance="66670"/>
+		
+		<!-- unconfirmed chances -->
+		<item id="steel shield" chance="6670"/>
+		<item id="steel helmet" chance="6670"/>
+		<item id="viper star" countmax="7" chance="6670"/>
 	</loot>
 </monster>

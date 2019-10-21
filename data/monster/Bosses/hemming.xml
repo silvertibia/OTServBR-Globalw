@@ -2,7 +2,7 @@
 <monster name="Hemming" nameDescription="Hemming" experience="2850" speed="210" race="blood">
 	<health now="3000" max="3000"/>
 	<targetchange interval="4000" chance="10"/>
-	<look type="308" corpse="20570"/>
+	<look type="308" corpse="18289"/>
 	<flags>
 		<flag preyable="0"/>
 		<flag summonable="0"/>
@@ -59,20 +59,20 @@
 		<voice sentence="GRROARR"/>
 	</voices>
 	<loot>
-		<item id="2148" countmax="99" chance="100000"/>	<!-- gold coin -->
-		<item id="11234" chance="100000"/>				<!-- werewolf fur -->
-		<item id="5897" chance="100000"/>				<!-- wolf paw -->
-		<item id="8473" chance="98000"/>				<!-- ultimate health potion -->
-		<item id="2789" countmax="5" chance="94000"/>	<!-- brown mushroom -->
-		<item id="2152" countmax="10" chance="94000"/>	<!-- platinum coin -->
-		<item id="7439" chance="82000"/>				<!-- berserk potion -->
-		<item id="2197" chance="70000"/>				<!-- stone skin amulet -->
-		<item id="2144" countmax="5" chance="62000"/>	<!-- black pearl -->
-		<item id="5480" chance="31000"/>				<!-- cat's paw -->
-		<item id="2805" chance="21000"/>				<!-- troll green -->
-		<item id="11306" chance="15000"/>				<!-- sai -->
-		<item id="7419" chance="9800"/>					<!-- dreaded cleaver -->
-		<item id="2169" chance="6000"/>					<!-- time ring -->
-		<item id="7428" chance="2000"/>					<!-- bonebreaker -->
+		<item name="gold coin" countmax="99" chance="100000"/>
+		<item name="werewolf fur" chance="100000"/>			
+		<item name="wolf paw" chance="100000"/>			
+		<item name="ultimate health potion" chance="98360"/>			
+		<item name="platinum coin" countmax="10" chance="95080"/>
+		<item name="brown mushroom" countmax="5" chance="95080"/>
+		<item name="berserk potion" chance="81970"/>			
+		<item name="stone skin amulet" chance="65570"/>			
+		<item name="black pearl" countmax="5" chance="62300"/>
+		<item name="cat's paw" chance="31150"/>			
+		<item name="troll green" chance="24590"/>			
+		<item name="sai" chance="18030"/>			
+		<item name="dreaded cleaver" chance="9840"/>
+		<item name="time ring" chance="4920"/>
+		<item name="bonebreaker" chance="4920"/>
 	</loot>
 </monster>

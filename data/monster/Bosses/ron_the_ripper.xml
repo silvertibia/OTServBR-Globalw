@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Ron The Ripper" nameDescription="Ron The Ripper" race="blood" experience="500" speed="240">
 	<health now="1500" max="1500"/>
-	<look type="151" head="95" body="94" legs="117" feet="97" addons="1" corpse="20502"/>
+	<look type="151" head="95" body="94" legs="117" feet="97" addons="1" corpse="18221"/>
 	<targetchange interval="60000" chance="0"/>
 	<flags>
 		<flag preyable="0"/>
@@ -35,15 +35,18 @@
 		<voice sentence="Muahaha!"/>
 	</voices>
 	<loot>
-		<item id="6101" chance="100000"/>					<!-- ron the ripper's sabre -->
-		<item id="2148" countmax="128" chance="100000"/>	<!-- gold coin -->
-		<item id="2229" countmax="2" chance="81000"/>		<!-- skull -->
-		<item id="2463" chance="63000"/>					<!-- plate armor -->
-		<item id="2379" chance="45000"/>					<!-- dagger -->
-		<item id="7591" chance="18000"/>					<!-- great health potion -->
-		<item id="2476" chance="18000"/>					<!-- knight armor -->
-		<item id="2666" chance="18000"/>					<!-- meat -->
-		<item id="5926" chance="18000"/>					<!-- pirate backpack -->
-		<item id="2145" chance="9000"/>						<!-- small diamond -->
+		<item name="gold coin" countmax="128" chance="100000"/>
+		<item name="ron the ripper's sabre" chance="100000"/>
+		<item id="3114" countmax="2" chance="80000"/><!-- skull -->
+		<item name="plate armor" chance="60000"/>
+		<item name="dagger" chance="46670"/>
+		<item name="very old piece of paper" chance="33330"/>
+		<item name="great health potion" chance="20000"/>
+		<item name="meat" chance="20000"/>
+		<item name="knight armor" chance="13330"/>
+		<item name="pirate backpack" chance="13330"/>
+		<item name="small diamond" chance="6670"/>
+		<!-- unconfirmed chances -->
+		<item name="double axe" chance="6670"/>
 	</loot>
 </monster>

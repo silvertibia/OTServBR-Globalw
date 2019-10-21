@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Fernfang" nameDescription="Fernfang" race="blood" experience="600" speed="240">
 	<health now="400" max="400"/>
-	<look type="206" corpse="20566"/>
+	<look type="206" corpse="18285"/>
 	<targetchange interval="5000" chance="8"/>
 	<flags>
 		<flag preyable="0"/>
@@ -55,24 +55,33 @@
 		<voice sentence="Yoooohuuuu!" yell="1"/>
 	</voices>
 	<loot>
-		<item id="10563" chance="100000"/>				<!-- book of prayers -->
-		<item id="2148" countmax="95" chance="100000"/>	<!-- gold coin -->
-		<item id="2152" countmax="3" chance="93000"/>	<!-- platinum coin -->
-		<item id="2800" chance="86000"/>				<!-- star herb -->
-		<item id="12448" chance="53000"/>				<!-- rope belt -->
-		<item id="2166" chance="40000"/>				<!-- power ring -->
-		<item id="12449" chance="40000"/>				<!-- safety pin -->
-		<item id="2154" chance="33000"/>				<!-- yellow gem -->
-		<item id="2015" chance="20000"/>				<!-- brown flask -->
-		<item id="7589" chance="20000"/>				<!-- strong mana potion -->
-		<item id="2044" chance="13000"/>				<!-- lamp -->
-		<item id="2401" chance="13000"/>				<!-- staff -->
-		<item id="5786" chance="13000"/>				<!-- wooden whistle -->
-		<item id="2260" chance="7000"/>					<!-- blank rune -->
-		<item id="2689" chance="7000"/>					<!-- bread -->
-		<item id="2652" chance="7000"/>					<!-- green tunic -->
-		<item id="2177" chance="7000"/>					<!-- life crystal -->
-		<item id="2802" chance="7000"/>					<!-- sling herb -->
-		<item id="2129" chance="7000"/>					<!-- wolf tooth chain -->
+		<item name="gold coin" countmax="94" chance="100000"/>
+		<item name="book of prayers" chance="100000"/>
+		<item name="platinum coin" countmax="3" chance="97440"/>
+		<item name="star herb" chance="92310"/>
+		<item name="rope belt" chance="56410"/>
+		<item name="yellow gem" chance="43590"/>
+		<item name="safety pin" chance="41030"/>
+		<item name="power ring" chance="41030"/>
+		<item name="blank rune" chance="17950"/>	
+		<item name="brown flask" chance="12820"/>
+		<item name="bread" chance="12820"/>	
+		<item id="2914" chance="12820"/><!-- lamp -->
+		<item name="staff" countmax="2" chance="12820"/>
+		<item name="green tunic" chance="12820"/>	
+		<item name="strong mana potion" chance="10260"/>
+		<item name="wooden whistle" chance="7690"/>
+		<item name="sling herb" chance="5130"/>	
+		<item name="wolf tooth chain" chance="5130"/>	
+		<item id="3061" chance="2560"/><!-- life crystal -->
+		
+		<!-- unconfirmed chances-->
+		<item name="sandals" chance="2560"/>	
+		<item name="bowl" chance="2560"/>	
+		<item id="2815" chance="2560"/><!-- scroll -->
+		<item name="grave flower" chance="2560"/>	
+		<item name="plate" chance="2560"/>	
+		<item name="ankh" chance="2560"/>	
+		<item name="dirty fur" chance="2560"/>	
 	</loot>
 </monster>

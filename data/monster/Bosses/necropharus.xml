@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Necropharus" nameDescription="Necropharus" race="blood" experience="1050" speed="240">
 	<health now="750" max="750"/>
-	<look type="209" corpse="20574"/>
+	<look type="209" corpse="18293"/>
 	<targetchange interval="5000" chance="8"/>
 	<flags>
 		<flag preyable="0"/>
@@ -62,20 +62,27 @@
 		<voice sentence="Praise to my master Urgith!"/>
 	</voices>
 	<loot>
-		<item id="11237" chance="100000"/>				<!-- book of necromantic rituals -->
-		<item id="2148" countmax="99" chance="100000"/>	<!-- gold coin -->
-		<item id="12431" chance="100000"/>				<!-- necromantic robe -->
-		<item id="5809" chance="100000"/>				<!-- soul stone -->
-		<item id="2423" chance="52000"/>				<!-- clerical mace -->
-		<item id="2436" chance="47000"/>				<!-- skull staff -->
-		<item id="2449" chance="38000"/>				<!-- bone club -->
-		<item id="2229" chance="19000"/>				<!-- skull -->
-		<item id="2796" chance="14000"/>				<!-- green mushroom -->
-		<item id="2186" chance="14000"/>				<!-- moonlight rod -->
-		<item id="2231" chance="9500"/>					<!-- big bone -->
-		<item id="2541" chance="9500"/>					<!-- bone shield -->
-		<item id="2195" chance="4700"/>					<!-- boots of haste -->
-		<item id="2663" chance="4700"/>					<!-- mystic turban -->
-		<item id="7589" chance="4700"/>					<!-- strong mana potion -->
+		<item name="gold coin" countmax="99" chance="100000"/>
+		<item name="book of necromantic rituals" chance="100000"/>			
+		<item name="necromantic robe" chance="100000"/>			
+		<item name="soul stone" chance="100000"/>			
+		<item name="clerical mace" chance="55560"/>			
+		<item name="skull staff" chance="44440"/>
+		<item name="bone club" chance="36110"/>
+		<item name="green mushroom" chance="25000"/>
+		<item id="3114" chance="13890"/><!-- skull -->
+		<item name="mystic turban" chance="11110"/>	
+		<item name="moonlight rod" chance="8330"/>
+		<item name="bone shield" chance="5560"/>	
+		<item name="big bone" chance="5560"/>	
+		<item name="boots of haste" chance="2780"/>	
+		<item name="strong mana potion" chance="2780"/>	
+		
+		<!-- unconfirmed chances -->
+		<item name="short sword" chance="2780"/>	
+		<item name="scale armor" chance="2780"/>	
+		<item name="snakebite rod" chance="2780"/>	
+		<item name="bowl" chance="2780"/>	
+		<item name="grave flower" chance="2780"/>	
 	</loot>
 </monster>

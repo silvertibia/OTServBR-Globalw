@@ -90,7 +90,6 @@
 		<item name="9697" chance="200"/><!-- (right arm) part of a jester doll -->
 		<item name="9698" chance="200"/><!-- (left leg) part of a jester doll -->
 		<item name="9699" chance="200"/><!-- (right leg) part of a jester doll -->
-		</item>
     </loot>
 </monster>
 		
