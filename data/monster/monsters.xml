@@ -498,7 +498,6 @@
 	<monster name="Lesser Death Minion" file="Oramond/lesser death minion.xml"/>
 	<monster name="Minotaur Invader" file="Oramond/minotaur invader.xml"/>
 	<monster name="Minotaur Totem" file="Oramond/minotaur totem.xml"/>
-	<monster name="Noble Lion" file="Oramond/noble lion.xml"/>
 	<monster name="Renegade Quara Constrictor" file="Oramond/renegade quara constrictor.xml"/>
 	<monster name="Renegade Quara Hydromancer" file="Oramond/renegade quara hydromancer.xml"/>
 	<monster name="Renegade Quara Mantassin" file="Oramond/renegade quara mantassin.xml"/>
@@ -1036,8 +1035,9 @@
 	<!-- Felines -->
 	<monster name="Cat" file="Felines/cat.xml"/>
 	<monster name="Lion" file="Felines/lion.xml"/>
-	<monster name="Tiger" file="Felines/tiger.xml"/>
 	<monster name="Midnight Panther" file="Felines/midnight_panther.xml"/>
+	<monster name="Noble Lion" file="Oramond/noble_lion.xml"/>
+	<monster name="Tiger" file="Felines/tiger.xml"/>
 
 	<!-- Fish -->
 	<monster name="Fish" file="Fish/fish.xml"/>
