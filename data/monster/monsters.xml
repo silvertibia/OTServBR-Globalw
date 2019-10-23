@@ -401,10 +401,6 @@
 	<monster file="Summons/time waster.xml" name="Time Waster"/>
 	<monster file="Summons/thorn minion.xml" name="Thorn Minion"/>
 
-	<monster file="Traps/icicle.xml" name="Icicle"/>
-	<monster file="Traps/dragon egg.xml" name="Dragon Egg"/>
-	<monster file="Traps/soulcatcher.xml" name="Soulcatcher"/>
-
 	<monster file="Trolls/frozen minion.xml" name="Frozen Minion"/>
 
 	<monster file="Unbounds/unbound blightwalker.xml" name="Unbound Blightwalker"/>
@@ -1411,11 +1407,18 @@
 	<monster name="Magicthrower" file="Traps/magicthrower.xml"/>
 	<monster name="Plaguethrower" file="Traps/plaguethrower.xml"/>
 	<monster name="Shredderthrower" file="Traps/shredderthrower.xml"/>
-	<monster name="Hell Hole" file="Traps/hell hole.xml"/>
+	<monster name="Hell Hole" file="Traps/hell_hole.xml"/>
 	<monster name="Deaththrower" file="Traps/deaththrower.xml"/>
 	<monster name="Pillar" file="Traps/pillar.xml"/>
-	<monster name="Demon Summoner" file="Traps/demon summoner.xml"/>
-	<monster name="a carved stone tile" file="Traps/a carved stone tile.xml"/>
+	<monster name="Demon Summoner" file="Traps/demon_summoner.xml"/>
+	<monster name="A Carved Stone Tile" file="Traps/a_carved_stone_tile.xml"/>
+	<monster name="Icicle" file="Traps/icicle.xml"/>
+	<monster name="Dragon Egg" file="Traps/dragon_egg.xml"/>
+	<monster name="Soulcatcher" file="Traps/soulcatcher.xml"/>
+	<monster name="Wild Fire Magic" file="Traps/wild_fire_magic.xml"/>
+	<monster name="Wild Fury Magic" file="Traps/wild_fury_magic.xml"/>
+	<monster name="Wild Nature Magic" file="Traps/wild_nature_magic.xml"/>
+	<monster name="Wild Water Magic" file="Traps/wild_water_magic.xml"/>
 
 	<!-- Trolls -->
 	<monster name="Biting Cold" file="Trolls/Biting Cold.xml"/>
@@ -1484,12 +1487,6 @@
 	<monster name="Adept of the Cult" file="Voodoo Cultists/adept_of_the_cult.xml"/>
 	<monster name="Enlightened of the Cult" file="Voodoo Cultists/enlightened_of_the_cult.xml"/>
 	<monster name="Novice of the Cult" file="Voodoo Cultists/novice_of_the_cult.xml"/>
-
-	<!-- Wild Magics -->
-	<monster name="Wild Fire Magic" file="Wild_Magics/wild_fire_magic.xml"/>
-	<monster name="Wild Fury Magic" file="Wild_Magics/wild_fury_magic.xml"/>
-	<monster name="Wild Nature Magic" file="Wild_Magics/wild_nature_magic.xml"/>
-	<monster name="Wild Water Magic" file="Wild_Magics/wild_water_magic.xml"/>
 
 	<!-- Winter Update -->
 	<monster name="Alptramun" file="Winter Update/alptramun.xml"/>
