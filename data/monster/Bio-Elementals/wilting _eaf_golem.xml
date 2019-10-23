@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <monster name="Wilting Leaf Golem" nameDescription="a wilting leaf golem" race="blood" experience="145" speed="74" manacost="390">
 	<health now="380" max="380"/>
-	<look type="573" corpse="21434"/>
+	<look type="573" corpse="19117"/>
 	<targetchange interval="4000" chance="10"/>
 	<flags>
 		<flag summonable="0"/>
@@ -43,9 +43,9 @@
 	<loot>
 		<item name="gold coin" countmax="45" chance="97540"/>
 		<item name="fir cone" chance="14950"/>
-		<item name="dowser" chance="11880"/>
-		<item name="small emerald" chance="1050"/>
+		<item name="dowser" chance="11890"/>
 		<item name="white mushroom" countmax="3" chance="5040"/>
 		<item name="swampling club" chance="4890"/>
+		<item name="small emerald" chance="1050"/>
 	</loot>
 </monster>

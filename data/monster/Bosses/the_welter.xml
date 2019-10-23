@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="The Welter" nameDescription="The Welter" race="blood" experience="11000" speed="256" script="rewardboss.lua">
 	<health now="25000" max="25000"/>
-	<look type="563" corpse="21291"/>
+	<look type="563" corpse="18974"/>
 	<targetchange interval="2000" chance="5"/>
 	<flags>
 		<flag preyable="0"/>
@@ -66,24 +66,27 @@
 		<voice sentence="FCHHHHH" yell="1"/>
 	</voices>
 	<loot>
-	<item id="21400" chance="200"/><!-- silver token -->
-		<item id="21690" chance="200"/> <!-- Triple Bolt Crossbow -->
-		<item id="2475" chance="2000"/> <!-- Warrior Helmet-->
-		<item id="21691" chance="500"/> <!-- Shrunken Head Necklace -->
-		<item id="2195" chance="1000"/> <!-- Boots of Haste -->
-		<item id="2536" chance="2000"/> <!--  Medusa Shield -->
-		<item id="2396" chance="2000"/> <!--  Ice Rapier -->
-		<item id="2146" countmax="2" chance="20000"/> <!-- Small Sapphire -->
-		<item id="2476" chance="3000"/> <!-- Knight Armor -->
-		<item id="7588" countmax="2" chance="20000"/> <!-- Strong Health Potion -->
-		<item id="10219" subtype="5" chance="1000"/> <!-- Sacred Tree Amulet-->
-		<item id="2197" subtype="5" chance="20000"/> <!-- Stone Skin Amulet-->
-		<item id="9971" chance="800"/> <!-- Gold Ingot -->
-		<item id="2498" chance="500"/> <!-- Royal Helmet -->
-		<item id="7632" chance="600"/> <!-- Giant Shimmering Pearl -->
-		<item id="4850" chance="2000"/> <!-- Hydra Egg,-->
-		<item id="7589" countmax="2" chance="20000"/> <!-- Strong Mana Potions-->
-		<item id="2152" countmax="10" chance="20000"/> <!--  Platinum Coin-->
-		<item id="2148" countmax="100" chance="20000"/> <!--  Gold Coins -->
+		<item name="gold coin" countmax="150" chance="100000"/>
+		<item name="platinum coin" countmax="20" chance="100000"/>
+		<item name="strong mana potion" countmax="3" chance="100000"/>
+		<item name="giant shimmering pearl" chance="100000"/>
+		<item name="stone skin amulet" chance="100000"/>
+		<item name="small sapphire" countmax="5" chance="50000"/>
+		<item name="silver raid token" chance="50000"/>
+		<item name="royal helmet" chance="50000"/>
+		
+		<!-- unconfirmed chances -->
+		<item name="strong health potion" countmax="3" chance="50000"/>
+		<item name="medusa shield" chance="2000"/>
+		<item name="hydra egg" chance="2000"/>
+		<item name="gold ingot" chance="2000"/>
+		<item name="knight armor" chance="1000"/>
+		<item name="ice rapier" chance="1000"/>
+		<item name="sacred tree amulet" chance="1000"/>
+		<item name="spellbook of mind control" chance="1000"/>
+		<item name="triple bolt" chance="1000"/>
+		<item name="crossbow" chance="1000"/>
+		<item name="shrunken head necklace" chance="1000"/>
+		<item name="boots of haste" chance="500"/>
 	</loot>
 </monster>

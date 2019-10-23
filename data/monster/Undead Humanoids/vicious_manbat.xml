@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <monster name="Vicious Manbat" nameDescription="a vicious manbat" race="blood" experience="1200" speed="105">
 	<health now="1700" max="1700"/>
-	<look type="554" corpse="21266"/>
+	<look type="554" corpse="19137"/>
 	<targetchange interval="4000" chance="10"/>
 	<flags>
 		<flag summonable="0"/>
@@ -43,6 +43,15 @@
 		<immunity earth="1"/>
 	</immunities>
 	<loot>
-		<item name="gold coin" countmax="100" chance="50000"/>
+		<item name="gold coin" countmin="1" countmax="163" chance="100000"/>
+		<item name="tooth file" chance="11490"/>
+		<item name="strong mana potion" chance="10340"/>
+		<item name="blood preservation" chance="8050"/>		
+		<item name="strong health potion" chance="6900"/>
+		<item name="vampire teeth" chance="6900"/>
+		<item name="small ruby" countmax="2" chance="5750"/>
+		<item name="bat wing" chance="460"/>
+		<item name="emerald bangle" chance="3450"/>
+		<item name="red gem" chance="1150"/>
 	</loot>
 </monster>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Dazed Leaf Golem" nameDescription="a dazed leaf golem" race="undead" experience="8000" speed="350">
 	<health now="10000" max="10000"/>
-	<look type="567" corpse="21358"/>
+	<look type="567" corpse="19041"/>
 	<flags>
 		<flag attackable="1"/>
 		<flag hostile="1"/>
@@ -32,6 +32,6 @@
 		<immunity invisible="1"/>
 	</immunities>
 	<loot>
-		<item name="gold coin" countmax="437" chance="100000"/>
+		<item name="gold coin" countmax="437" chance="88890"/>
 	</loot>
 </monster>

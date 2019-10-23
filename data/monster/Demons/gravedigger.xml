@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <monster name="Gravedigger" nameDescription="a gravedigger" race="blood" experience="950" speed="120">
 	<health now="1500" max="1500"/>
-	<look type="558" corpse="21279"/>
+	<look type="558" corpse="18962"/>
 	<targetchange interval="4000" chance="10"/>
 	<flags>
 		<flag summonable="0"/>
@@ -59,18 +59,18 @@
 		<voice sentence="Put it there!"/>
 	</voices>
 	<loot>
-		<item name="gold coin" countmax="137" chance="100000"/>
-		<item name="platinum coin" chance="24470"/>
-		<item name="yellow gem" chance="800"/>
-		<item name="wand of inferno" chance="5590"/>
-		<item name="sudden death rune" countmaxe="9" chance="7300"/>
-		<item name="skull staff" chance="130"/>
-		<item name="mysterious voodoo skull" chance="100"/>
-		<item id="6300" chance="800"/><!-- death ring -->
-		<item name="strong health potion" countmax="2" chance="2260"/>
-		<item name="strong mana potion" countmax="2" chance="3600"/>
-		<item name="unholy bone" chance="9570"/>
-		<item name="pile of grave earth" chance="6650"/>
-		<item name="safety pin" chance="6000"/>
+		<item name="gold coin" countmax="148" chance="100000"/>
+		<item name="platinum coin" chance="24310"/>
+		<item name="unholy bone" chance="9850"/>
+		<item name="safety pin" chance="7150"/>
+		<item name="pile of grave earth" chance="7040"/>
+		<item name="sudden death rune" countmaxe="8" chance="5500"/>
+		<item name="wand of inferno" chance="4950"/>
+		<item name="strong mana potion" countmax="2" chance="3030"/>
+		<item name="strong health potion" countmax="2" chance="2590"/>
+		<item name="yellow gem" chance="990"/>
+		<item id="6299" chance="720"/><!-- death ring -->
+		<item name="mysterious voodoo skull" chance="280"/>
+		<item name="skull staff" chance="110"/>
 	</loot>
 </monster>

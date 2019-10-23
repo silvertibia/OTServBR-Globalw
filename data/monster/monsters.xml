@@ -898,7 +898,7 @@
  	<monster name="Scar Tribe Warrior" file="Dawnport/scar_tribe_warrior.xml"/>
 	<monster name="Crazed Dwarf" file="Dawnport/crazed_dwarf.xml"/>
 	<monster name="Meadow Strider" file="Dawnport/meadow_strider.xml"/>
-	<monster name="Lesser Fire Devil"file="Dawnport/lesser_fire_devil.xml"/>
+	<monster name="Lesser Fire Devil" file="Dawnport/lesser_fire_devil.xml"/>
 	<monster name="Juvenile Cyclops" file="Dawnport/juvenile_cyclops.xml"/>
 	
 	<!-- Deeplings -->

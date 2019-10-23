@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <monster name="Vampire Viscount" nameDescription="a vampire viscount" race="blood" experience="800" speed="110">
 	<health now="1200" max="1200"/>
-	<look type="555" corpse="21278"/>
+	<look type="555" corpse="18961"/>
 	<targetchange interval="4000" chance="10"/>
 	<flags>
 		<flag summonable="0"/>
@@ -51,18 +51,18 @@
 		<voice sentence="Bloody good thing you came!"/>
 	</voices>
 	<loot>
-		<item name="black pearl" chance="2500"/>
-		<item name="small ruby" countmax="2" chance="3040"/>
-		<item name="gold coin" countmax="50" chance="83000"/>
-		<item name="red gem" chance="540"/>
-		<item name="ice rapier" chance="810"/>
-		<item name="vampire shield" chance="200"/>
-		<item name="red piece of cloth" chance="70"/>
-		<item name="strong health potion" chance="7100"/>
-		<item name="strong mana potion" chance="8180"/>
-		<item name="vampire teeth" chance="7200"/>
-		<item name="blood preservation" chance="2910"/>
-		<item name="tooth file" chance="6560"/>
-		<item name="vampire's cape chain" chance="4460"/>
+		<item name="gold coin" countmax="50" chance="83980"/>
+		<item name="strong mana potion" chance="7830"/>
+		<item name="vampire teeth" chance="7510"/>
+		<item name="strong health potion" chance="5950"/>
+		<item name="tooth file" chance="5460"/>
+		<item name="vampire's cape chain" chance="4060"/>
+		<item name="small ruby" countmax="2" chance="3520"/>
+		<item name="blood preservation" chance="2820"/>
+		<item name="black pearl" chance="2710"/>
+		<item name="ice rapier" chance="750"/>
+		<item name="red gem" chance="460"/>
+		<item name="red piece of cloth" chance="270"/>
+		<item name="vampire shield" chance="160"/>
 	</loot>
 </monster>

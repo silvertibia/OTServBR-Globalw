@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Weakened Shlorg" nameDescription="Weakened Shlorg" race="venom" experience="6500" speed="270" script="rewardboss.lua">
 	<health now="10000" max="10000"/>
-	<look type="565" corpse="21299"/>
+	<look type="565" corpse="18982"/>
 	<targetchange interval="60000" chance="0"/>
 	<flags>
         <flag rewardboss="1"/>
@@ -52,25 +52,30 @@
 		<voice sentence="Slurp!"/>
 	</voices>
 	<loot>
-		<item id="21400" chance="3000"/><!-- silver raid token -->
-		<item id="2148" countmax="105" chance="100000"/><!-- gold coin -->
-		<item id="2152" countmax="8" chance="100000"/><!-- platinum coin -->
-		<item id="21705" chance="3000"/><!-- glass of goo -->
-		<item id="21706" chance="3000"/><!-- goo shell -->
-		<item id="2154" chance="10000"/><!-- yellow gem -->
-		<item id="2155" chance="10000"/><!-- green gem -->
-		<item id="8473" countmax="3" chance="10000"/><!-- ultimate health potion -->
-		<item id="8472" countmax="3" chance="10000"/><!-- great spirit potion -->
-		<item id="7590" countmax="3" chance="10000"/><!-- great mana potion -->
-		<item id="2149" countmax="5" chance="10000"/><!-- small emerald -->
-		<item id="9970" countmax="5" chance="10000"/><!-- small topaz -->
-		<item id="8872" chance="20000"/><!-- belted cape -->
-		<item id="5910" chance="10000"/><!-- green piece of cloth -->
-		<item id="5911" chance="10000"/><!-- red piece of cloth -->
-		<item id="5914" chance="10000"/><!-- yellow piece of cloth -->
-		<item id="2409" chance="20000"/><!-- serpent sword -->
-		<item id="8912" chance="20000"/><!-- springsprout rod -->
-		<item id="8891" chance="10000"/><!-- paladin armor -->
-		<item id="10584" chance="100000"/><!-- boggy dreads -->
+		<item name="gold coin" countmax="5" chance="100000"/>
+		<item name="boggy dreads" chance="100000"/>
+		<item name="belted cape" chance="75000"/>
+		<item name="ultimate health potion" countmax="3" chance="50000"/>
+		<item name="yellow piece of cloth" chance="50000"/>
+		<item name="platinum coin" countmax="8" chance="25000"/>
+		<item name="small emerald" countmax="5" chance="25000"/>
+		<item name="small topaz" countmax="5" chance="25000"/>
+		<item name="great spirit potion" countmax="3" chance="25000"/>
+		<item name="great mana potion" countmax="3" chance="25000"/>
+		<item name="green piece of cloth" chance="25000"/>
+		<item name="yellow gem" chance="25000"/>
+		<item name="springsprout rod" chance="25000"/>
+		<item name="serpent sword" chance="25000"/>
+
+		<!-- unconfirmed chances  -->
+		<item name="silver raid token" chance="3000"/>
+		<item name="blue piece of cloth" chance="3000"/>
+		<item name="red piece of cloth" chance="3000"/>
+		<item name="green gem" chance="3000"/>
+		<item name="angelic axe" chance="3000"/>
+		<item name="chaos mace" chance="3000"/>
+		<item name="paladin armor" chance="1000"/>
+		<item name="glass of goo" chance="1000"/>
+		<item name="goo shell" chance="1000"/>
 	</loot>
 </monster>

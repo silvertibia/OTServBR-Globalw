@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monster name="Tyrn" nameDescription="Tyrn" race="blood" experience="6900" speed="300" script="rewardboss.lua">
 	<health now="12000" max="12000"/>
-	<look type="562" corpse="21287"/>
+	<look type="562" corpse="18970"/>
 	<targetchange interval="2000" chance="5"/>
 	<flags>
 		<flag preyable="0"/>
@@ -61,26 +61,25 @@
 		<voice sentence="GRROARR"/>
 	</voices>
 	<loot>
-		<item id="21400" chance="5000"/><!-- silver raid token OK-->
-		<item id="21695" chance="3000"/><!-- sun mirror OK -->
-		<item id="2672" countmax="3" chance="55000"/><!-- OK dragon ham -->
-		<item id="2268" subtype="5" chance="15000"/><!-- OK sudden death rune -->
-		<item id="2148" countmax="50" chance="100000"/><!-- OK gold coin -->
-		<item id="2152" countmax="8" chance="60000"/><!-- platinum coin -->
-		<item id="7368" countmax="5" chance="30000"/><!-- assassin star -->
-		<item id="7588" countmax="5" chance="25000"/><!-- strong health potion -->
-		<item id="7589" countmax="5" chance="25000"/><!-- strong mana potion -->
-		<item id="10582" chance="100000"/><!-- wyrm scale OK-->
-		<item id="2156" chance="9000"/><!-- red gem -->
-		<item id="2154" chance="9000"/><!-- yellow gem -->
-		<item id="2153" chance="9000"/><!-- violet gem -->
-		<item id="2515" chance="9000"/><!-- guardian shield -->
-		<item id="8873" chance="9000"/><!-- hibiscus dress -->
-		<item id="2145" countmax="5" chance="15000"/><!-- small diamond -->
-		<item id="2150" countmax="5" chance="15000"/><!-- small amethyst -->
-		<item id="2149" countmax="5" chance="15000"/><!-- small emerald -->
-		<item id="2146" countmax="5" chance="15000"/><!-- small sapphire -->
-		<item id="9970" countmax="5" chance="15000"/><!-- small topaz -->
-		<item id="2147" countmax="5" chance="15000"/><!-- small ruby -->
+		<item name="gold coin" countmax="150" chance="100000"/>
+		<item name="platinum coin" countmax="21" chance="100000"/>
+		<item name="wyrm scale" chance="100000"/>
+		<item name="sudden death rune" subtype="5" chance="66670"/>
+		<item name="strong mana potion" countmax="5" chance="25000"/>
+		<item name="dragon ham" countmax="3" chance="55000"/>
+		<item name="small ruby" countmax="5" chance="33330"/>
+		<item name="small topaz" countmax="5" chance="33330"/>
+		<item name="silver raid token" chance="33330"/>
+		<item name="strong health potion" countmax="5" chance="33330"/>
+		<item name="assassin star" countmax="5" chance="33330"/>
+		<item name="yellow gem" chance="33330"/>
+		
+		<!-- unconfirmed chances -->
+		<item name="small sapphire" countmax="5" chance="33330"/>
+		<item name="guardian shield" chance="25000"/>
+		<item name="violet gem" chance="9000"/>
+		<item name="red gem" chance="9000"/>
+		<item name="sun mirror" chance="3000"/>
+		<item name="lightning legs" countmax="5" chance="2000"/>
 	</loot>
 </monster>
